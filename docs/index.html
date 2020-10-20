@@ -78,5 +78,29 @@
 </head>
 
 <body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyDsaoAG_usz-_nyDUbqGU-_DFENqnt9xxY",
+        authDomain: "all-exam-notes.firebaseapp.com",
+        databaseURL: "https://all-exam-notes.firebaseio.com",
+        projectId: "all-exam-notes",
+        storageBucket: "all-exam-notes.appspot.com",
+        messagingSenderId: "9794229228",
+        appId: "1:9794229228:web:91e791ab735af24e0c66c9",
+        measurementId: "G-4GJXRSHL51"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 </body>
 </html>
