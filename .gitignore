@@ -90,3 +90,4 @@ wp-content/themes/twenty*/
 # IDE files
 .idea/
 .vs/
+.DS_Store
