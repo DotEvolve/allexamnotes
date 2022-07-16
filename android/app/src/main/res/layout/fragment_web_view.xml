@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <im.delight.android.webview.AdvancedWebView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/webviewProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginTop="-7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

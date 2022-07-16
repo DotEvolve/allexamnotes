@@ -136,6 +136,18 @@ td table {
 .hide {
   display:none;
 }
+.list_terms_scroll_wrapper::-webkit-scrollbar {
+  width: 11px;
+}
+.list_terms_scroll_wrapper::-webkit-scrollbar-track {
+  background: #f0f0f1;
+}
+.list_terms_scroll_wrapper::-webkit-scrollbar-thumb {
+  background-color: #c4bfbf;
+  border-radius: 6px;
+  border: 3px solid #f0f0f1;
+  min-height: 50px;
+}
 .list_terms_scroll_wrapper {
   overflow: auto;
   min-height: 25px;
@@ -143,11 +155,12 @@ td table {
   max-width: 650px;
   vertical-align: middle;
   border: 1px solid #c4bfbf;
-  padding: 3px 6px 2px 6px;
+  padding: 3px 0px 2px 6px;
   border-radius: 3px;
 }
 .list_terms_scroll_wrapper ul{
-  margin: 4px 2px 0 2px;
+  margin: 4px 0px 0 2px;
+  display: inline-block;
 }
 .list_terms_scroll_wrapper li{
   width: auto;
@@ -172,9 +185,19 @@ td table {
   vertical-align: super;
   font-weight: 600;
 }
-.types, .shortcodes {
+.types {
   margin-bottom: 6px;
   display: table;
+}
+.ulshortcodes {
+  max-width: 850px;
+}
+.ulshortcodes li {
+  display: inline-block;
+  margin: 0 12px 6px 0;
+}
+.ulshortcodes label {
+  vertical-align: initial;
 }
 .xyztabs {
   max-width: 100%;

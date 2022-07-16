@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/sliderImageView"
+        android:scaleType="centerCrop"
+        android:transitionName="featImg"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/dark_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/sliderTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textAlignment="textStart"
+        android:text="ajshasdjaksda"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/pt_sans"
+        android:textSize="@dimen/default_text_size"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/md_white_1000"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_above="@id/sliderTitleView"
+        android:layout_marginStart="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/md_deep_orange_500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sliderCategoryTitle"
+            android:padding="3dp"
+            android:textSize="13dp"
+            android:visibility="gone"
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@color/md_white_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

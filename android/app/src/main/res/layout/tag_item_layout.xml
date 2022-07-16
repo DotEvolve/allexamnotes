@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    app:cardCornerRadius="8dp"
+    android:clipChildren="true"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <View
+        android:background="@drawable/dark_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:id="@+id/tag_title"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/quicksand_bold"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.cardview.widget.CardView>

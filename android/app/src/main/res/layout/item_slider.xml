@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:fillColor="#FFFFFFFF"
+        app:indicatorGravity="top|end"
+        app:indicatorMarginVertical="10dp"
+        app:pageColor="#00000000"
+        app:pageTransformer="slide_over"
+        app:radius="4dp"
+        app:slideInterval="3000"
+        app:snap="true"/>
+
+</LinearLayout>

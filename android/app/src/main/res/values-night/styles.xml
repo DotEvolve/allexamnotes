@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textInputStyle">@style/DefaultTextField</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:fontFamily">@font/pt_sans</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="buttonBarButtonStyle">@style/ButtonColor</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/iconTintDark</item>
+    </style>
+
+    <style name="ButtonColor" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#EFEFEF</item>
+        <item name="iconTint">#FFFFFF</item>
+    </style>
+</resources>
