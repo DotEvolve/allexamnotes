@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "allexamnotes",
     "public": "docs",
     "ignore": [
       "firebase.json",
