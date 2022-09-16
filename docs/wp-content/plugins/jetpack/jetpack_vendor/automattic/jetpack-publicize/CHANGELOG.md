@@ -5,6 +5,51 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.12.1] - 2022-09-02
+### Fixed
+- Fix an incorrect permissions check for contributors. [##26025]
+
+## [0.12.0] - 2022-08-30
+### Changed
+- Rebrand Publicize to Jetpack Social [#25787]
+- Updated package dependencies. [#25694]
+
+### Fixed
+- Post field: Allow for the filter which could make the connections default to disabled. [#24617]
+
+## [0.11.1] - 2022-08-23
+### Changed
+- Updated package dependencies. [#25628]
+
+## [0.11.0] - 2022-08-09
+### Added
+- Added scheduled post calculation on plugin activation [#25334]
+
+## [0.10.1] - 2022-08-03
+### Changed
+- Updated package dependencies. [#25300, #25315]
+
+## [0.10.0] - 2022-07-26
+### Changed
+- Updated package dependencies. [#25158]
+- Use new Jetpack Social endpoint on WPCOM to get Publicize shares info [#25147]
+
+## [0.9.0] - 2022-07-19
+### Added
+- Fetch share counter on the server side in Jetpack Social. To facilitate this, the call to wpcom has been moved into the Publicize_Base class. [#24836]
+
+## [0.8.1] - 2022-07-12
+### Changed
+- Updated package dependencies.
+
+## [0.8.0] - 2022-07-06
+### Added
+- Synced changes made in modules/publice/publicize.php and made sure the composer package for publicize has those changes. [#24943]
+
+## [0.7.1] - 2022-06-29
+### Changed
+- Update annotations versions.
+
 ## [0.7.0] - 2022-06-21
 ### Added
 - Added a proxy end-point to get the shares count for Publicize. [#24786]
@@ -78,6 +123,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated package dependencies.
 - Update package.json metadata.
 
+[0.12.1]: https://github.com/Automattic/jetpack-publicize/compare/v0.12.0...v0.12.1
+[0.12.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.11.1...v0.12.0
+[0.11.1]: https://github.com/Automattic/jetpack-publicize/compare/v0.11.0...v0.11.1
+[0.11.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.10.1...v0.11.0
+[0.10.1]: https://github.com/Automattic/jetpack-publicize/compare/v0.10.0...v0.10.1
+[0.10.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.9.0...v0.10.0
+[0.9.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.8.1...v0.9.0
+[0.8.1]: https://github.com/Automattic/jetpack-publicize/compare/v0.8.0...v0.8.1
+[0.8.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.7.1...v0.8.0
+[0.7.1]: https://github.com/Automattic/jetpack-publicize/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/Automattic/jetpack-publicize/compare/v0.4.0...v0.5.0

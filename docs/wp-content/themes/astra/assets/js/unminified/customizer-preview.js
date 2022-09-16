@@ -103,13 +103,13 @@ function astra_responsive_font_size( control, selector ) {
 				jQuery( 'style#' + control + '-' + css_property ).remove();
 
 				if ( '' != value.desktop ) {
-					fontSize = 'font-size: ' + value.desktop + value['desktop-unit'];
+					fontSize = 'font-size: ' + value.desktop + ( undefined == value['desktop-unit'] ? 'px' : value['desktop-unit'] );
 				}
 				if ( '' != value.tablet ) {
-					tabletFontSize = 'font-size: ' + value.tablet + value['tablet-unit'];
+					tabletFontSize = 'font-size: ' + value.tablet + ( undefined == value['tablet-unit'] ? 'px' : value['tablet-unit'] );
 				}
 				if ( '' != value.mobile ) {
-					mobileFontSize = 'font-size: ' + value.mobile + value['mobile-unit'];
+					mobileFontSize = 'font-size: ' + value.mobile + ( undefined == value['mobile-unit'] ? 'px' : value['mobile-unit'] );
 				}
 
 				if( value['desktop-unit'] == 'px' ) {
@@ -899,7 +899,6 @@ function hasWordPressWidgetBlockEditor() {
 	 */
 	wp.customize( 'astra-settings[button-radius]', function( setting ) {
 		setting.bind( function( border ) {
-
 			var search_button_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button' : '' ;
 			var lmsButtonSelectors = ', body #ld_course_list .btn, body a.btn-blue, body a.btn-blue:visited, body a#quiz_continue_link, body .btn-join, body .learndash_checkout_buttons input.btn-join[type="button"], body #btn-join, body .learndash_checkout_buttons input.btn-join[type="submit"], body .wpProQuiz_content .wpProQuiz_button2, a.llms-button-primary, .llms-button-secondary, .llms-button-action, .llms-field-button, .llms-button-action.large';
 
@@ -1383,7 +1382,7 @@ function hasWordPressWidgetBlockEditor() {
 	wp.customize( 'astra-settings[theme-button-border-group-border-size]', function( value ) {
 		value.bind( function( border ) {
 
-			var search_button_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button' : '' ;
+			var search_button_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button, .woocommerce a.button' : '' ;
 			var dynamicStyle = '.menu-toggle, button, .ast-button, .ast-custom-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"], .wp-block-button .wp-block-button__link' + ele_border_width_selector + search_button_selector;
 
 			if( '' != border.top || '' != border.right || '' != border.bottom || '' != border.left ) {
@@ -1478,8 +1477,8 @@ function hasWordPressWidgetBlockEditor() {
 	// Site Tagline - Text Transform
 	astra_css( 'astra-settings[text-transform-site-tagline]', 'text-transform', '.site-header .site-description' );
 
-	var search_button_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button' : '' ;
-	var search_button_hover_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:hover, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:focus' : '' ;
+	var search_button_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button, .woocommerce a.button' : '' ;
+	var search_button_hover_selector = hasWordPressWidgetBlockEditor() ? ', form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:hover, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:focus, .woocommerce a.button:hover' : '' ;
 
 	if ( astraCustomizer.page_builder_button_style_css ) {
 
@@ -1864,6 +1863,160 @@ function hasWordPressWidgetBlockEditor() {
 						+ btnSelector + '	{ background-color: ' + value + ' }'
 						+ '</style>'
 					);
+				}
+			} );
+		} );
+
+		/**
+		 * Cart Count Color.
+		 */
+		wp.customize( 'astra-settings[woo-header-cart-product-count-color]', function( setting ) {
+			setting.bind( function( color ) {
+				if( color ) {
+				var dynamicStyle = '.ast-site-header-cart .ast-addon-cart-wrap i.astra-icon:after { color: ' + color + '; } ';
+				astra_add_dynamic_css( 'woo-header-cart-product-count-color', dynamicStyle );
+				} else {
+					wp.customize.preview.send( 'refresh' );
+				}
+			} );
+		} );
+
+		/**
+		 * Cart Count Color Hover.
+		 */
+		wp.customize( 'astra-settings[woo-header-cart-product-count-h-color]', function( setting ) {
+			setting.bind( function( color ) {
+				if( color ) {
+					var dynamicStyle = '.ast-site-header-cart .ast-site-header-cart-li:hover .ast-addon-cart-wrap i.astra-icon:after { color: ' + color + '; } ';
+					astra_add_dynamic_css( 'woo-header-cart-product-count-h-color', dynamicStyle );
+				} else {
+					wp.customize.preview.send( 'refresh' );
+				}
+
+			} );
+		} );
+
+		wp.customize('astra-settings[single-product-cart-button-width]', function (value) {
+			value.bind(function (size) {
+				var tablet_break_point = astraBuilderPreview.tablet_break_point || 768,
+				mobile_break_point = astraBuilderPreview.mobile_break_point || 544;
+				if (size.desktop != '' || size.tablet != '' || size.mobile != '') {
+					var dynamicStyle = '';
+					dynamicStyle += '.single_add_to_cart_button {';
+					dynamicStyle += 'width: ' + size.desktop + '%' + ';';
+					dynamicStyle += '} ';
+					dynamicStyle += '@media (max-width: ' + tablet_break_point + 'px) {';
+					dynamicStyle += '.single_add_to_cart_button {';
+					dynamicStyle += 'width: ' + size.tablet + '%' + ';';
+					dynamicStyle += '} ';
+					dynamicStyle += '} ';
+
+					dynamicStyle += '@media (max-width: ' + mobile_break_point + 'px) {';
+					dynamicStyle += '.single_add_to_cart_button {';
+					dynamicStyle += 'width: ' + size.mobile + '%' + ';';
+					dynamicStyle += '} ';
+					dynamicStyle += '} ';
+					astra_add_dynamic_css('header-woo-cart-icon-size', dynamicStyle);
+				} else {
+					wp.customize.preview.send( 'refresh' );
+				}
+			});
+		});
+
+		// Single product Sticky add to cart.
+		const astraStickyAddToCartBtnColor = '.woocommerce .ast-sticky-add-to-cart .button.alt';
+		const astraStickyAddToCartBtnHover = '.woocommerce .ast-sticky-add-to-cart .button.alt:hover';
+
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-n-color]', 'color', astraStickyAddToCartBtnColor );
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-h-color]', 'color', astraStickyAddToCartBtnHover );
+
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-bg-n-color]', 'background', astraStickyAddToCartBtnColor );
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-bg-h-color]', 'background', astraStickyAddToCartBtnHover );
+
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-bg-n-color]', 'border-color',astraStickyAddToCartBtnColor );
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-btn-bg-h-color]', 'border-color', astraStickyAddToCartBtnHover );
+
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-text-color]', 'color', '.ast-sticky-add-to-cart .ast-container .ast-sticky-add-to-cart-content' );
+		astra_css( 'astra-settings[single-product-sticky-add-to-cart-bg-color]', 'background-color', '.ast-sticky-add-to-cart');
+
+		wp.customize( 'astra-settings[single-product-sticky-add-to-cart-position]', function( setting ) {
+			setting.bind( function( position  ) {
+
+				var dynamicStyle = '';
+
+				if( 'top' === position ) {
+					dynamicStyle += 'div.ast-sticky-add-to-cart{';
+					dynamicStyle += 'top: 0;';
+					dynamicStyle += 'bottom: initial;';
+					dynamicStyle += 'transform: translate(0, -100%);';
+					dynamicStyle += 'box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1), 0px 1px 9px rgba(0, 0, 0, 0.06);';
+					dynamicStyle += 'opacity: 0';
+					dynamicStyle += '}';
+				} else {
+					dynamicStyle += 'div.ast-sticky-add-to-cart{';
+					dynamicStyle += 'bottom: 0;';
+					dynamicStyle += 'top: initial;';
+					dynamicStyle += 'transform: translate(0, 100%);';
+					dynamicStyle += 'box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1), 0px -1px 9px rgba(0, 0, 0, 0.06);';
+					dynamicStyle += 'opacity: 0';
+					dynamicStyle += '}';
+				}
+
+				astra_add_dynamic_css( 'sticky-add-to-cart-position', dynamicStyle );
+			} );
+		} );
+
+		/**
+		 * Single product payments.
+		 */
+
+		wp.customize( 'astra-settings[single-product-payment-visa]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-mastercard]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-amex]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-discover]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-paypal]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-apple-pay]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-icon-color]', function( setting ) {
+			setting.bind( function( flag ) {
+				wp.customize.preview.send( 'refresh' );
+			} );
+		} );
+
+		wp.customize( 'astra-settings[single-product-payment-text]', function( setting ) {
+			setting.bind( function( text ) {
+				const paymentText = document.querySelector('.ast-single-product-payments legend');
+				if( paymentText ) {
+					paymentText.textContent = text;
 				}
 			} );
 		} );
