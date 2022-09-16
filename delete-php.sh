@@ -1,0 +1,1 @@
+find . -name '*.php' -delete
