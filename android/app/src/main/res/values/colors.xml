@@ -11,6 +11,8 @@
 
     <color name="btn_color">@color/md_blue_700</color>
 
+    <color name="white">#FFFFFF</color>
+
 
     <!--App Colors-->
 

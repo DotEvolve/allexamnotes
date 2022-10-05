@@ -20,6 +20,7 @@
         android:fontFamily="@font/quicksand_bold"
         android:maxLines="2"
         android:ellipsize="end"
+        android:textSize="@dimen/secondary_text_size"
         android:text="It is a long established fact that hgj jhg  a reader will be distracted by the fact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

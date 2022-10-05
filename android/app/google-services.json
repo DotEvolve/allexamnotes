@@ -1,55 +1,64 @@
 {
   "project_info": {
-    "project_number": "651881149223",
-    "firebase_url": "https://my-project-name-a62fb.firebaseio.com",
-    "project_id": "my-project-name-a62fb",
-    "storage_bucket": "my-project-name-a62fb.appspot.com"
+    "project_number": "9794229228",
+    "firebase_url": "https://all-exam-notes.firebaseio.com",
+    "project_id": "all-exam-notes",
+    "storage_bucket": "all-exam-notes.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:651881149223:android:8d459d9e76c11bfa2b6f02",
+        "mobilesdk_app_id": "1:9794229228:android:97cb3edc6a07b14a0c66c9",
         "android_client_info": {
-          "package_name": "com.itsanubhav.wordroid4"
+          "package_name": "com.allexamnotes.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "651881149223-u2vv5r6q07usc43jnsue85squ78uukhe.apps.googleusercontent.com",
+          "client_id": "9794229228-9ve7s5a09tvoeqmnch8iknj6g5bk2br0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.itsanubhav.wordroid4",
-            "certificate_hash": "f1cd9bef7b3ac4e7a9e12b9dc300e93ad8bc69e1"
+            "package_name": "com.allexamnotes.app",
+            "certificate_hash": "5b5a056c770f7998dc0c3c68b6b9d923696f5cb0"
           }
         },
         {
-          "client_id": "651881149223-1o054utfsa2vurvijgniushnhevq6p3o.apps.googleusercontent.com",
+          "client_id": "9794229228-mklca6p9ubr9ggbun5f1urm2vsv61uci.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.itsanubhav.wordroid4",
-            "certificate_hash": "326f7e3b8370f2c487a6051e5398b99dd76d0819"
+            "package_name": "com.allexamnotes.app",
+            "certificate_hash": "8f3abb42c384f8879d1d9039634a90ce2e5c25c8"
           }
         },
         {
-          "client_id": "651881149223-b8fkpmrvmj1s7dpji3bpou79j1gfb81t.apps.googleusercontent.com",
+          "client_id": "9794229228-polfahiq4cijd12udvfjaq397o2nolri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allexamnotes.app",
+            "certificate_hash": "41f07e6e65626e4d60562ec651e0b1875f7940e4"
+          }
+        },
+        {
+          "client_id": "9794229228-2ob53ia7itvrb7glpubrs0vjfcd5n851.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD_sXoemHY-DLIARYE-d97YIdlJQZqnAFI"
+          "current_key": "AIzaSyC5B-M9QTqtAExjZY6EYpTEnpBorgJqan0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "651881149223-b8fkpmrvmj1s7dpji3bpou79j1gfb81t.apps.googleusercontent.com",
+              "client_id": "9794229228-2ob53ia7itvrb7glpubrs0vjfcd5n851.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-5026356504898268~4463284187"
     }
   ],
   "configuration_version": "1"

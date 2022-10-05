@@ -19,10 +19,24 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep class com.itsanubhav.wordroid.** { *; }
--keep class com.itsanubhav.libdroid.** { *; }
+-keep class com.allexamnotes.app.** { *; }
+-keep class com.allexamnotes.libdroid.** { *; }
 -keep class com.synnapps.carouselview.** { *; }
--keep class .R
 -keep class **.R$* {
     <fields>;
 }
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep class * extends com.bumptech.glide.module.AppGlideModule {
+ <init>(...);
+}
+-keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
+-keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+-repackageclasses ''
