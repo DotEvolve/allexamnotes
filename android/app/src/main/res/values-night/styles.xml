@@ -16,6 +16,12 @@
         <item name="drawerArrowStyle">@style/DrawerIcon</item>
     </style>
 
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
     <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@color/iconTintDark</item>
     </style>

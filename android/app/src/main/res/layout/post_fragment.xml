@@ -82,6 +82,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:fontFamily="@font/pt_sans"
+                    android:textAlignment="viewStart"
                     android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -142,13 +143,26 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     ads:adSize="BANNER"
+                    android:visibility="gone"
                     ads:adUnitId="@string/admob_banner_ad_unit_id">
                 </com.google.android.gms.ads.AdView>
 
-                <WebView
+                <LinearLayout
+                    android:id="@+id/fbAdAboveContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <im.delight.android.webview.AdvancedWebView
                     android:id="@+id/contentWebView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:id="@+id/fbAdBelowContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
 
                 <include
                     android:id="@+id/loading_layout"
@@ -161,6 +175,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     ads:adSize="BANNER"
+                    android:visibility="gone"
                     ads:adUnitId="@string/admob_banner_ad_unit_id">
                 </com.google.android.gms.ads.AdView>
 

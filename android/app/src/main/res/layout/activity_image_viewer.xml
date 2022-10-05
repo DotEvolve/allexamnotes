@@ -23,7 +23,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
-    <com.itsanubhav.wordroid4.others.views.CustomViewPager
+    <com.allexamnotes.app.others.views.CustomViewPager
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:id="@+id/imageViewPager"
         android:layout_width="match_parent"

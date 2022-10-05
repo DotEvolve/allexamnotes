@@ -6,6 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/titleBar"
         app:cardCornerRadius="0dp"
         app:cardBackgroundColor="@color/colorPrimary"
         android:layout_width="match_parent"
@@ -16,14 +17,41 @@
             android:fontFamily="@font/quicksand_bold"
             android:textSize="17dp"
             android:textColor="@color/white"
-            android:padding="10dp"
+            android:padding="15dp"
             android:layout_marginStart="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addCategorybtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:icon="@drawable/ic_add"
+            app:iconTint="@color/iconTintDark"
+            android:layout_gravity="end|center_vertical"/>
+
     </androidx.cardview.widget.CardView>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_below="@id/titleBar"
+        android:id="@+id/search_bar"
+        android:layout_margin="8dp"
+        android:hint="Search Term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:lines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/search_bar"
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

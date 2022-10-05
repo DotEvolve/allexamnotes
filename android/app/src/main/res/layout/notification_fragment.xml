@@ -25,7 +25,7 @@
         android:textColor="@color/white"
         app:iconTint="@color/white"
         android:textStyle="bold"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

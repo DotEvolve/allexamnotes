@@ -66,6 +66,14 @@
             ads:adUnitId="@string/admob_banner_ad_unit_id">
         </com.google.android.gms.ads.AdView>
 
+        <LinearLayout
+            android:id="@+id/fbBanner"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
     </RelativeLayout>
 
 

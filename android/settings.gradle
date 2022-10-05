@@ -1,2 +1,2 @@
 include ':app', ':libdroid'
-rootProject.name='Template'
+rootProject.name='Exam Notes'

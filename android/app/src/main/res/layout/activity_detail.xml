@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/root"
     android:fitsSystemWindows="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DetailActivity">
@@ -64,7 +65,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -83,30 +84,27 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginTop="10dp"
-                        android:textStyle="bold"
+                        android:fontFamily="@font/quicksand_bold"
                         android:layout_marginBottom="10dp"
                         android:layout_gravity="center_vertical"
-                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="13dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
                 </LinearLayout>
 
-
-
                 <TextView
                     android:id="@+id/titleTextView"
-                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
                     android:textSize="22dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:fontFamily="@font/pt_sans"
+                    android:textAlignment="viewStart"
                     android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
-                <LinearLayout
+                <RelativeLayout
                     android:orientation="horizontal"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -114,16 +112,37 @@
 
                     <com.mikepenz.iconics.view.IconicsButton
                         android:id="@+id/commentsBtn"
-                        android:textStyle="bold"
+                        android:layout_alignParentStart="true"
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:text="@string/comments_text_post_detail_page"
+                        android:textStyle="bold"
+                        android:textColor="@color/btn_color"
+                        android:backgroundTint="@color/btn_color"
                         app:icon="@drawable/ic_reply_black"
-                        android:backgroundTint="@color/titleTextColor"
-                        android:textColor="@color/titleTextColor"
                         android:layout_width="wrap_content"
                         android:layout_height="39dp"/>
 
-                </LinearLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/saveBtn"
+                        app:icon="@drawable/ic_save"
+                        android:layout_toStartOf="@id/shareBtn"
+                        android:layout_centerVertical="true"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        app:iconTint="@color/btn_color"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/shareBtn"
+                        app:icon="@drawable/ic_share"
+                        android:layout_centerVertical="true"
+                        app:iconTint="@color/btn_color"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
 
                 <View
                     android:layout_marginTop="5dp"
@@ -134,53 +153,74 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"/>
 
-                <com.google.android.gms.ads.AdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/adViewAboveContent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-                </com.google.android.gms.ads.AdView>
-
-                <im.delight.android.webview.AdvancedWebView
-                    android:id="@+id/contentWebView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-                <com.google.android.gms.ads.AdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/adViewBelowContent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-                </com.google.android.gms.ads.AdView>
-
-                <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/postDetailChipGroup"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:singleSelection="true"/>
-
             </LinearLayout>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewAboveContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+            <LinearLayout
+                android:id="@+id/fbAdAboveContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <WebView
+                android:id="@+id/contentWebView"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/fbAdBelowContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <include
+                android:id="@+id/loading_layout"
+                layout="@layout/loading_layout"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewBelowContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/postDetailChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:singleSelection="true"/>
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                
 
                 <TextView
-                    android:text="Related Posts"
-                    android:padding="10dp"
-                    android:textColor="@color/md_white_1000"
-                    android:background="@color/colorPrimary"
+                    android:id="@+id/relatedPostTitle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="10dp"
+                    android:text="Related Posts"
+                    android:textColor="@color/iconTintDark"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
                 <FrameLayout
                     android:id="@+id/relatedPostFrame"
@@ -194,6 +234,17 @@
 
 
     </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/speakBtn"
+        app:layout_anchor="@id/app_bar_layout"
+        app:layout_anchorGravity="end|bottom"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

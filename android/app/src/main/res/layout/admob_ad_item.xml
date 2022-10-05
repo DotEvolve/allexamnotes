@@ -7,7 +7,7 @@
     card_view:cardCornerRadius="@dimen/cardview_default_radius"
     card_view:cardElevation="0dp">
 
-    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+    <com.google.android.gms.ads.nativead.NativeAdView
         android:id="@+id/ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -95,7 +95,7 @@
 
                     </LinearLayout>
 
-                    <com.google.android.gms.ads.formats.MediaView
+                    <com.google.android.gms.ads.nativead.MediaView
                         android:id="@+id/ad_media"
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="center_horizontal"
@@ -167,5 +167,5 @@
                 android:background="@color/dividerColor"/>
         </LinearLayout>
 
-    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+    </com.google.android.gms.ads.nativead.NativeAdView>
 </androidx.cardview.widget.CardView>

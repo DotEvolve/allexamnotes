@@ -1,18 +1,24 @@
 <resources>
-    <string name="app_name">WorDroid</string>
+    <string name="app_name">Exam Notes</string>
 
-    <string name="admob_app_id">ca-app-pub-2424373783985998~2580712870</string>
-    <string name="admob_banner_ad_unit_id">ca-app-pub-2424373783985998/2389141189</string>
-    <string name="admob_interstitial_ad_id">ca-app-pub-2424373783985998/5381657100</string>
-    <string name="admob_native_ad_unit_id">ca-app-pub-2424373783985998/3510651160</string>
+    <string name="admob_app_id">ca-app-pub-5026356504898268~4463284187</string>
+    <string name="admob_banner_ad_unit_id">ca-app-pub-5026356504898268/7868176721</string>
+    <string name="admob_interstitial_ad_id">ca-app-pub-5026356504898268/8159024603</string>
+    <string name="admob_native_ad_unit_id">ca-app-pub-5026356504898268/4813007663</string>
 
-    <string name="fb_interstitial_ad_placement_id">DEMO_AD_TYPE#YOUR_PLACEMENT_ID</string>
+<!--    <string name="admob_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="admob_interstitial_ad_id">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="admob_native_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>-->
 
+    <string name="fb_interstitial_ad_placement_id">644675469787602_984843212437491</string>
+    <string name="fb_native_ad_placement_id">644675469787602_984843659104113</string>
+    <string name="fb_banner_ad_placement_id">644675469787602_984843049104174</string>
 
-    <string name="facebook_application_id" translatable="false">APP_ID</string>
+    <!--These are used for FB login only-->
+    <string name="facebook_application_id" translatable="false">644675469787602</string>
     <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
-    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
-
+    <string name="facebook_login_protocol_scheme" translatable="false">fb644675469787602</string>
+    <string name="facebook_client_token">3a3dd63cdfe8f1315005a459a517e67f</string>
 
     <string name="navigation_drawer_open">Open Drawer</string>
     <string name="navigation_drawer_close">Close Drawer</string>
@@ -24,7 +30,7 @@
     <string name="logout_btn">Logout</string>
     <string name="snackbar_close_text">CLOSE</string>
     <string name="text_to_speak_language_not_supported">This Language is not supported</string>
-    <string name="text_to_speak_initializing_reader">Initializing the reader...</string>
+    <string name="text_to_speak_initializing_reader">Initializing the reader..</string>
     <string name="post_comment">Post a comment</string>
     <string name="post_saved_successfully">Post Saved Successfully</string>
     <string name="post_deleted_successfully">Post Deleted Successfully</string>
@@ -62,13 +68,14 @@
     <string name="forgot_password_text">Forgot Password ?</string>
     <string name="don_t_have_an_account_text">Don\'t have an account ?</string>
     <string name="welcome_back_login_page_text">Welcome Back</string>
-    <string name="login_to_continue_usng_the_app_text">Login to continue usng the app</string>
+    <string name="login_to_continue_usng_the_app_text">Login to continue using the app</string>
     <string name="delete_all_text">Delete All</string>
     <string name="see_more_btn_text">See more</string>
     <string name="comments_text_post_detail_page">Comments</string>
     <string name="set_as_wallpaper">Set as wallpaper</string>
     <string name="whoops_string">W h o o p s ..</string>
     <string name="no_content_found_here">No content found here</string>
+    <string name="app_register_url">https://www.allexamnotes.com/wp-login.php?action=register</string>
 
 
 </resources>
