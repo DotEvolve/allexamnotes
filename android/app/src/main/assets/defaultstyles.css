@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DefaultFont';
+    font-style: normal;
+    font-weight: 400;
+    src: local('DefaultFont Regular'), local('Slabo'), url(file:///android_asset/fonts/DefaultFont.ttf) format('truetype');
+}
+body{max-width:100%!important;direction:ltr}
+*{font-family: 'DefaultFont', sans-serif; color:#666;font-size: 18px; text-align: left;line-height:26px;}
+iframe,video{max-width:100%!important;}
+a{color:#2874f0;}
+div{width:auto!important;height:auto!important;}
+img{max-width:100%!important;width:100%!important;height:auto!important;display:block;margin:5px auto;}
+figure{max-width:100%!important;width:100%!important;margin:0px}

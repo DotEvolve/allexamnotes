@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="titleTextColor">#EFEFEF</color>
+    <color name="iconTintDark">#FFFFFF</color>
+
+
+    <!--App Colors-->
+
+    <color name="greyBackground">#333333</color>
+    <color name="bottomNavColor">#333333</color>
+    <color name="dividerColor">#666666</color>
+    <color name="cardBackground">#000000</color>
+    <color name="windowBackground">#111111</color>
+
+    <!--End-->
+
+</resources>

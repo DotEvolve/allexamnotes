@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.notification.NotificationFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        tools:listitem="@layout/layout_notification_item"
+        android:clipToPadding="false"
+        android:paddingBottom="30dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/deletefab"
+        android:layout_gravity="bottom|end"
+        android:text="@string/delete_all_text"
+        app:icon="@drawable/ic_delete"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        app:iconTint="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/no_contents"
+        android:visibility="gone"
+        layout="@layout/error_no_items"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.15] - 2022-07-26
+### Changed
+- Updated package dependencies. [#25158]
+
+## [1.4.14] - 2022-06-21
+### Changed
+- Renaming master to trunk. [#24661]
+
+## [1.4.13] - 2022-06-08
+### Fixed
+- Update method checking for block-based themes to use latest core function. [#24622]
+
+## [1.4.12] - 2022-04-26
+### Changed
+- Updated package dependencies.
+
+## [1.4.11] - 2022-01-25
+### Changed
+- Updated package dependencies.
+
+## [1.4.10] - 2022-01-18
+### Changed
+- Updated package dependencies.
+
 ## [1.4.9] - 2022-01-04
 ### Changed
 - Switch to pcov for code coverage.
@@ -92,6 +116,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Blocks: introduce new package for block management
 
+[1.4.15]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.14...v1.4.15
+[1.4.14]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.13...v1.4.14
+[1.4.13]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.12...v1.4.13
+[1.4.12]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.11...v1.4.12
+[1.4.11]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.10...v1.4.11
+[1.4.10]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.9...v1.4.10
 [1.4.9]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.8...v1.4.9
 [1.4.8]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.7...v1.4.8
 [1.4.7]: https://github.com/Automattic/jetpack-blocks/compare/v1.4.6...v1.4.7

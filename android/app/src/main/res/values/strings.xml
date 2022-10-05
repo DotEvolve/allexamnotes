@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WorDroid</string>
+
+    <string name="admob_app_id">ca-app-pub-2424373783985998~2580712870</string>
+    <string name="admob_banner_ad_unit_id">ca-app-pub-2424373783985998/2389141189</string>
+    <string name="admob_interstitial_ad_id">ca-app-pub-2424373783985998/5381657100</string>
+    <string name="admob_native_ad_unit_id">ca-app-pub-2424373783985998/3510651160</string>
+
+    <string name="fb_interstitial_ad_placement_id">DEMO_AD_TYPE#YOUR_PLACEMENT_ID</string>
+
+
+    <string name="facebook_application_id" translatable="false">APP_ID</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
+
+
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+
+    <string name="comments_text">{faw-comment-alt} %s Comments</string>
+    <string name="comment_reply_to_text">Reply to %s</string>
+    <string name="error_comment_validation">Error validating the comment form</string>
+    <string name="email_error_message">Email field can\'t be empty</string>
+    <string name="logout_btn">Logout</string>
+    <string name="snackbar_close_text">CLOSE</string>
+    <string name="text_to_speak_language_not_supported">This Language is not supported</string>
+    <string name="text_to_speak_initializing_reader">Initializing the reader...</string>
+    <string name="post_comment">Post a comment</string>
+    <string name="post_saved_successfully">Post Saved Successfully</string>
+    <string name="post_deleted_successfully">Post Deleted Successfully</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="double_tap_exit_text">Please click BACK again to exit</string>
+    <string name="title_activity_auth">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="signin_failed">SignIn Failed</string>
+    <string name="replies_comment_text">View %s comment(s)</string>
+    <string name="posts_by_author">Posts by %s</string>
+
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <string name="dialog_ok_btn">OK</string>
+    <string name="dialog_cancel_btn">Cancel</string>
+    <string name="youtube_latest_playlist_name">Latest</string>
+    <string name="youtube_playlist_string">Playlist</string>
+    <string name="login_btn_text">Login</string>
+    <string name="or_login_via_text">OR LOGIN VIA</string>
+    <string name="signup_text">SignUp</string>
+    <string name="other_login_methods_btn_text">Google / Phone</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="forgot_password_text">Forgot Password ?</string>
+    <string name="don_t_have_an_account_text">Don\'t have an account ?</string>
+    <string name="welcome_back_login_page_text">Welcome Back</string>
+    <string name="login_to_continue_usng_the_app_text">Login to continue usng the app</string>
+    <string name="delete_all_text">Delete All</string>
+    <string name="see_more_btn_text">See more</string>
+    <string name="comments_text_post_detail_page">Comments</string>
+    <string name="set_as_wallpaper">Set as wallpaper</string>
+    <string name="whoops_string">W h o o p s ..</string>
+    <string name="no_content_found_here">No content found here</string>
+
+
+</resources>
