@@ -1,2 +1,11 @@
 Sitemap: https://www.allexamnotes.com/sitemap.xml
 Sitemap: https://www.allexamnotes.com/sitemap_index.xml
+
+User-agent: *
+Disallow: /wordpress/wp-admin/
+Disallow: /wp-json/
+Disallow: /author/
+Disallow: /pagead/
+Disallow: /page/
+Disallow: /cdn-cgi/
+Allow: /wordpress/wp-admin/admin-ajax.php

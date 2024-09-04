@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.allexamnotes.app",
+        "sha256_cert_fingerprints": [
+          "EB:75:9B:27:9C:81:ED:5E:34:46:D3:B1:42:A7:75:5C:51:FE:0E:10:74:BD:8B:91:9C:32:1B:8B:B6:E7:84:51"
+        ]
+      }
+    }
+]
