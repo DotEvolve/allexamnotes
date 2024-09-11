@@ -495,10 +495,7 @@
               }
               else if (node.tagName === 'LINK' && node.rel === (shimMode ? 'modulepreload-shim' : 'modulepreload')) {
                 processPreload(node);
-              }
-            }
-          }
-        }).observe(document, {childList: true, subtree: true});
+   Ëèl™U   Ëèl™U                  °“l™U          ÐÖúl™U  ˆËèl™U          @Ëèl™U   @      @Ëèl™U          );
         processScriptsAndPreloads();
         if (document.readyState === 'complete') {
           readyStateCompleteCheck();
