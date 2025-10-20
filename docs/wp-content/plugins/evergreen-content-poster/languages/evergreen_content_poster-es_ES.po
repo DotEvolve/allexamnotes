@@ -1,0 +1,3444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen Content Poster\n"
+"POT-Creation-Date: 2022-12-02 15:00+0100\n"
+"PO-Revision-Date: 2022-12-02 15:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: evergreen_content_poster.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-evergreen_content_poster-admin.php:213
+#: admin/class-evergreen_content_poster-admin.php:329
+msgid "Buffer Settings have been saved successfully!"
+msgstr "¡Los ajustes del Buffer se han guardado correctamente!"
+
+#. translators: %1$s is the name of the plugin, %2s and %3s is the name of the social network you want to share content with, %4s is the opening tag for the authorisation link, %5s is the closing tag of the link.
+#: admin/class-evergreen_content_poster-admin.php:553
+#, php-format
+msgid ""
+"%1s needs to be authorized with %2s before you can start sending posts to "
+"%3s. %4sClick here to Authorize%5s."
+msgstr ""
+"%1s debe estar autorizado con %2s antes de poder comenzar a enviar entradas "
+"a %3s. %4sHaz clic aquí para autorizar%5s."
+
+#: admin/class-evergreen_content_poster-admin.php:571
+#, php-format
+msgid ""
+"%s is now disconnected from %s. Please authorize again with %s before you "
+"can resume sending posts to %s."
+msgstr ""
+"%s ahora está desconectado de %s. Por favor, autorízalo de nuevo con %s "
+"antes de poder reanudar el envío de entradas a %s."
+
+#: admin/class-evergreen_content_poster-admin.php:588
+#, php-format
+msgid ""
+"%s token has expired. %s is now disconnected from %s. Please authorize again "
+"with %s before you can resume sending posts to %s."
+msgstr ""
+"El token %s ha caducado. %s ahora está desconectado de %s. Por favor, "
+"autorízalo de nuevo con %s antes de poder reanudar el envío de entradas a %s."
+
+#: admin/class-evergreen_content_poster-admin.php:618
+#: admin/class-evergreen_content_poster-admin.php:1555
+#: admin/class-evergreen_content_poster-configurator.php:1830
+#: admin/class-evergreen_content_poster-content-library.php:1421
+msgid "Evergreen Content"
+msgstr "Contenido «evergreen»"
+
+#: admin/class-evergreen_content_poster-admin.php:628
+#: admin/class-evergreen_content_poster-admin.php:629
+#: admin/class-evergreen_content_poster-content-library.php:1007
+#: admin/class-evergreen_content_poster-settings.php:2324
+#: evergreen_content_poster.php:777
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-evergreen_content_poster-admin.php:637
+#: admin/class-evergreen_content_poster-admin.php:638
+#: admin/class-evergreen_content_poster-content-library.php:1008
+#: admin/class-evergreen_content_poster-settings.php:2326
+msgid "Content Library"
+msgstr "Biblioteca de contenido"
+
+#: admin/class-evergreen_content_poster-admin.php:646
+#: admin/class-evergreen_content_poster-admin.php:647
+msgid "Configurator"
+msgstr "Configurador"
+
+#: admin/class-evergreen_content_poster-admin.php:956
+#: admin/class-evergreen_content_poster-admin.php:1803
+#: admin/class-evergreen_content_poster-configurator.php:1924
+#: admin/class-evergreen_content_poster-content-library.php:1727
+msgid ""
+"Add an image that is optimized for maximum exposure on your Facebook page. "
+"We recommend using either the size of a Facebook Page Photo (940x788) or a "
+"Facebook Link Post (1200x628)."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en tu página "
+"de Facebook. Recomendamos utilizar el tamaño de una foto de página de "
+"Facebook (940x788) o una entrada de enlace de Facebook (1200x628)."
+
+#: admin/class-evergreen_content_poster-admin.php:957
+#: admin/class-evergreen_content_poster-admin.php:1804
+#: admin/class-evergreen_content_poster-configurator.php:1925
+#: admin/class-evergreen_content_poster-content-library.php:1728
+msgid ""
+"Add an image that is optimized for maximum exposure in Facebook Groups. We "
+"recommend using the size of a Facebook Group Photo (640x334)."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en los "
+"grupos de Facebook. Recomendamos utilizar el tamaño de una foto de grupo de "
+"Facebook (640x334)."
+
+#: admin/class-evergreen_content_poster-admin.php:958
+#: admin/class-evergreen_content_poster-admin.php:959
+#: admin/class-evergreen_content_poster-admin.php:1805
+#: admin/class-evergreen_content_poster-admin.php:1806
+#: admin/class-evergreen_content_poster-configurator.php:1926
+#: admin/class-evergreen_content_poster-configurator.php:1927
+#: admin/class-evergreen_content_poster-content-library.php:1729
+#: admin/class-evergreen_content_poster-content-library.php:1730
+msgid ""
+"Add an image that is optimized for maximum exposure on Instagram. We "
+"recommend using the size of an Instagram Photo (1080x1080) or a Facebook "
+"Link Post (1200x628)."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en "
+"Instagram.  Recomendamos utilizar el tamaño de una foto de Instagram "
+"(1080x1080) o una entrada de enlace de Facebook (1200x628)."
+
+#: admin/class-evergreen_content_poster-admin.php:960
+#: admin/class-evergreen_content_poster-admin.php:1807
+#: admin/class-evergreen_content_poster-configurator.php:1928
+#: admin/class-evergreen_content_poster-content-library.php:1731
+msgid ""
+"Add an image that is optimized for maximum exposure on your LinkedIn "
+"profile. We recommend using the size of a LinkedIn Photo (1400x800)."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en tu perfil "
+"de LinkedIn. Recomendamos utilizar el tamaño de una foto de LinkedIn "
+"(1400x800)."
+
+#: admin/class-evergreen_content_poster-admin.php:961
+#: admin/class-evergreen_content_poster-admin.php:1808
+#: admin/class-evergreen_content_poster-configurator.php:1929
+#: admin/class-evergreen_content_poster-content-library.php:1732
+msgid ""
+"Add an image that is optimized for maximum exposure on your LinkedIn page. "
+"We recommend using the size of a LinkedIn Page Photo (1400x800)."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en tu página "
+"de LinkedIn. Recomendamos utilizar el tamaño de una foto de página de "
+"LinkedIn (1400x800)."
+
+#: admin/class-evergreen_content_poster-admin.php:962
+#: admin/class-evergreen_content_poster-admin.php:963
+msgid ""
+"Add one or more images that are optimized for maximum exposure on Pinterest. "
+"We recommend using an image that is formatted in a 2:3 aspect ratio like "
+"1000x1500."
+msgstr ""
+"Añade una o más imágenes optimizadas para una máxima exposición en "
+"Pinterest. Recomendamos usar una imagen formateada en una relación de "
+"aspecto de 2:3 como 1000x1500."
+
+#: admin/class-evergreen_content_poster-admin.php:964
+#: admin/class-evergreen_content_poster-admin.php:1811
+#: admin/class-evergreen_content_poster-configurator.php:1932
+#: admin/class-evergreen_content_poster-content-library.php:1735
+msgid ""
+"Add an image that is optimized for maximum exposure on Twitter. We recommend "
+"using an image that is formatted in 16:9 aspect ratio like 1200x675."
+msgstr ""
+"Añade una imagen optimizada para conseguir la máxima exposición en Twitter. "
+"Recomendamos usar una imagen con formato de relación de aspecto 16:9, como "
+"1200x675."
+
+#: admin/class-evergreen_content_poster-admin.php:965
+#: admin/class-evergreen_content_poster-admin.php:1812
+#: admin/class-evergreen_content_poster-configurator.php:1933
+#: admin/class-evergreen_content_poster-content-library.php:1736
+msgid ""
+"Add an image that is optimized for maximum exposure on your Google Business "
+"Profile post. We recommend using an image that is formatted in 4:3 aspect "
+"ratio with a minimum resolution of 480x270."
+msgstr ""
+"Añade una imagen optimizada para obtener la máxima exposición en tu "
+"publicación de perfil de empresa de Google. Recomendamos utilizar una imagen "
+"formateada en una relación de aspecto 4:3 con una resolución mínima de "
+"480x270."
+
+#: admin/class-evergreen_content_poster-admin.php:966
+#: admin/class-evergreen_content_poster-admin.php:1813
+#: admin/class-evergreen_content_poster-configurator.php:1934
+#: admin/class-evergreen_content_poster-content-library.php:1737
+msgid ""
+"Add an video that is optimized for maximum exposure on your TikTok post. We "
+"recommend using an video that is formatted in 9:16 aspect ratio with a "
+"minimum resolution of 1080x1920. It needs to be in MP4 or MOV format with a "
+"maximum length of 180 seconds. For Android users, the maximum video file "
+"size is 72MB. If you're using an iPhone, the maximum video file size is "
+"287.6MB"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:990
+#: admin/class-evergreen_content_poster-admin.php:1787
+#: admin/class-evergreen_content_poster-configurator.php:1909
+#: admin/class-evergreen_content_poster-content-library.php:1711
+msgid "Based on the current content above your Facebook Page Post has"
+msgstr ""
+"Basado en el contenido actual de arriba, tu entrada de página de Facebook "
+"tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:990
+#: admin/class-evergreen_content_poster-admin.php:991
+#: admin/class-evergreen_content_poster-admin.php:992
+#: admin/class-evergreen_content_poster-admin.php:993
+#: admin/class-evergreen_content_poster-admin.php:994
+#: admin/class-evergreen_content_poster-admin.php:995
+#: admin/class-evergreen_content_poster-admin.php:996
+#: admin/class-evergreen_content_poster-admin.php:997
+#: admin/class-evergreen_content_poster-admin.php:998
+#: admin/class-evergreen_content_poster-admin.php:999
+#: admin/class-evergreen_content_poster-admin.php:1000
+#: admin/class-evergreen_content_poster-admin.php:1787
+#: admin/class-evergreen_content_poster-admin.php:1788
+#: admin/class-evergreen_content_poster-admin.php:1789
+#: admin/class-evergreen_content_poster-admin.php:1790
+#: admin/class-evergreen_content_poster-admin.php:1791
+#: admin/class-evergreen_content_poster-admin.php:1792
+#: admin/class-evergreen_content_poster-admin.php:1793
+#: admin/class-evergreen_content_poster-admin.php:1794
+#: admin/class-evergreen_content_poster-admin.php:1795
+#: admin/class-evergreen_content_poster-admin.php:1797
+#: admin/class-evergreen_content_poster-configurator.php:1909
+#: admin/class-evergreen_content_poster-configurator.php:1910
+#: admin/class-evergreen_content_poster-configurator.php:1911
+#: admin/class-evergreen_content_poster-configurator.php:1912
+#: admin/class-evergreen_content_poster-configurator.php:1913
+#: admin/class-evergreen_content_poster-configurator.php:1914
+#: admin/class-evergreen_content_poster-configurator.php:1915
+#: admin/class-evergreen_content_poster-configurator.php:1916
+#: admin/class-evergreen_content_poster-configurator.php:1917
+#: admin/class-evergreen_content_poster-configurator.php:1918
+#: admin/class-evergreen_content_poster-configurator.php:1919
+#: admin/class-evergreen_content_poster-content-library.php:1711
+#: admin/class-evergreen_content_poster-content-library.php:1712
+#: admin/class-evergreen_content_poster-content-library.php:1713
+#: admin/class-evergreen_content_poster-content-library.php:1714
+#: admin/class-evergreen_content_poster-content-library.php:1715
+#: admin/class-evergreen_content_poster-content-library.php:1716
+#: admin/class-evergreen_content_poster-content-library.php:1717
+#: admin/class-evergreen_content_poster-content-library.php:1718
+#: admin/class-evergreen_content_poster-content-library.php:1719
+#: admin/class-evergreen_content_poster-content-library.php:1721
+msgid "characters remaining"
+msgstr "caracteres restantes"
+
+#: admin/class-evergreen_content_poster-admin.php:991
+#: admin/class-evergreen_content_poster-admin.php:1788
+#: admin/class-evergreen_content_poster-configurator.php:1910
+#: admin/class-evergreen_content_poster-content-library.php:1712
+msgid "Based on the current content above your Facebook Group Post has"
+msgstr ""
+"Basado en el contenido actual de arriba, tu entrada de grupo de Facebook "
+"tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:992
+#: admin/class-evergreen_content_poster-admin.php:993
+#: admin/class-evergreen_content_poster-admin.php:1789
+#: admin/class-evergreen_content_poster-admin.php:1790
+#: admin/class-evergreen_content_poster-configurator.php:1911
+#: admin/class-evergreen_content_poster-configurator.php:1912
+#: admin/class-evergreen_content_poster-content-library.php:1713
+#: admin/class-evergreen_content_poster-content-library.php:1714
+msgid "Based on the current content above your Instagram Post has"
+msgstr "Basado en el contenido actual de arriba, tu entrada de Instagram tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:994
+#: admin/class-evergreen_content_poster-admin.php:1791
+#: admin/class-evergreen_content_poster-configurator.php:1913
+#: admin/class-evergreen_content_poster-content-library.php:1715
+msgid "Based on the current content above your LinkedIn Personal Post has"
+msgstr ""
+"Basado en el contenido actual de arriba, tu entrada personal de LinkedIn "
+"tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:995
+#: admin/class-evergreen_content_poster-admin.php:1792
+#: admin/class-evergreen_content_poster-configurator.php:1914
+#: admin/class-evergreen_content_poster-content-library.php:1716
+msgid "Based on the current content above your LinkedIn Page Post has"
+msgstr ""
+"Basado en el contenido actual de arriba, tu entrada de página de LinkedIn "
+"tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:996
+#: admin/class-evergreen_content_poster-admin.php:997
+#: admin/class-evergreen_content_poster-admin.php:1793
+#: admin/class-evergreen_content_poster-admin.php:1794
+#: admin/class-evergreen_content_poster-configurator.php:1915
+#: admin/class-evergreen_content_poster-configurator.php:1916
+#: admin/class-evergreen_content_poster-content-library.php:1717
+#: admin/class-evergreen_content_poster-content-library.php:1718
+msgid "Based on the current content above your Pinterest Pin description has"
+msgstr ""
+"Basado en el contenido actual de arriba, tu descripción de pin de Pinterest "
+"tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:998
+#: admin/class-evergreen_content_poster-admin.php:1795
+#: admin/class-evergreen_content_poster-configurator.php:1917
+#: admin/class-evergreen_content_poster-content-library.php:1719
+msgid ""
+"Based on a link being added, and the current content above your tweet has"
+msgstr ""
+"Basado en el enlace añadido y el contenido actual de arriba, tu tuit tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:999
+#: admin/class-evergreen_content_poster-admin.php:1796
+#: admin/class-evergreen_content_poster-configurator.php:1918
+#: admin/class-evergreen_content_poster-content-library.php:1720
+msgid ""
+"Based on a link being added, and the current content above your Google "
+"Business Profile post has"
+msgstr ""
+"Según se agrega un enlace y el contenido actual sobre su publicación de "
+"perfil comercial de Google tiene"
+
+#: admin/class-evergreen_content_poster-admin.php:999
+#: admin/class-evergreen_content_poster-admin.php:1796
+#: admin/class-evergreen_content_poster-configurator.php:1918
+#: admin/class-evergreen_content_poster-content-library.php:1720
+msgid ""
+"However, even though it’s nice of Google to give so much space to work with, "
+"the ideal length for any given post falls between 150-300 characters."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1000
+#: admin/class-evergreen_content_poster-admin.php:1797
+#: admin/class-evergreen_content_poster-configurator.php:1919
+#: admin/class-evergreen_content_poster-content-library.php:1721
+msgid "Based on the current content above your TikTok post has"
+msgstr "Según el contenido actual sobre tu publicación de TikTok"
+
+#: admin/class-evergreen_content_poster-admin.php:1002
+#: admin/class-evergreen_content_poster-admin.php:1202
+#: admin/class-evergreen_content_poster-configurator.php:458
+#: admin/class-evergreen_content_poster-configurator.php:1475
+#: admin/class-evergreen_content_poster-content-library.php:1013
+#: admin/class-evergreen_content_poster-settings.php:2344
+#: admin/class-evergreen_content_poster-settings.php:2348
+msgid "Saving Settings"
+msgstr "Guardando ajustes"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1005
+#, php-format
+msgid "Saving your %s post"
+msgstr "Guardando tu entrada de %s"
+
+#: admin/class-evergreen_content_poster-admin.php:1008
+#: admin/class-evergreen_content_poster-admin.php:1212
+#: admin/class-evergreen_content_poster-configurator.php:1396
+#: admin/class-evergreen_content_poster-content-library.php:1022
+msgid "Saving Category"
+msgstr "Guardando categoría"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1011
+#, php-format
+msgid "%s post successfully saved"
+msgstr "La entrada de %s se ha guardado correctamente"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1016
+#, php-format
+msgid "There was a problem saving this %s post"
+msgstr "Hubo un problema al guardar esta entrada de %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1020
+#, php-format
+msgid "Delete your %s post"
+msgstr "Borra tu entrada de %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1023
+#, php-format
+msgid "%s post successfully deleted"
+msgstr "La entrada de %s se ha borrado correctamente"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1026
+#, php-format
+msgid "There was a problem deleting this %s post"
+msgstr "Hubo un problema al borrar esta entrada de %s"
+
+#: admin/class-evergreen_content_poster-admin.php:1027
+#: admin/class-evergreen_content_poster-admin.php:1227
+#: admin/class-evergreen_content_poster-configurator.php:1428
+#: admin/class-evergreen_content_poster-content-library.php:1093
+msgid "An error has occurred, please try again later"
+msgstr "Ha ocurrido un problema, inténtalo de nuevo más tarde"
+
+#: admin/class-evergreen_content_poster-admin.php:1031
+msgid ""
+"Share <strong>immediately</strong> upon publication via Evergreen Content "
+"Poster"
+msgstr ""
+"Comparte <strong>inmediatamente</strong> después de la publicación a través "
+"de Evergreen Content Poster"
+
+#: admin/class-evergreen_content_poster-admin.php:1034
+msgid ""
+"Share <strong>immediately</strong> when you update the post via Evergreen "
+"Content Poster"
+msgstr ""
+"Comparte <strong>inmediatamente</strong> cuando actualices la entrada a "
+"través de Evergreen Content Poster"
+
+#. translators: %1$s is a link start tag to Buffer signup page, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-admin.php:1042
+#, php-format
+msgid ""
+"Before you can share to your social accounts, you first have to %1sconnect "
+"your social profiles%2s in the plugin."
+msgstr ""
+"Antes de que puedas compartir con tus cuentas sociales, tienes que "
+"%1sconectar tus perfiles sociales%2s en el plugin."
+
+#: admin/class-evergreen_content_poster-admin.php:1106
+msgid "Edit message"
+msgstr "Editar mensaje"
+
+#: admin/class-evergreen_content_poster-admin.php:1108
+msgid "Delete message"
+msgstr "Borrar mensaje"
+
+#: admin/class-evergreen_content_poster-admin.php:1111
+msgid ""
+"This message did not get shared when you published/updated this post as the "
+"checkbox was not checked, we saved it so you can still use it if you want to "
+"share it when you update this post."
+msgstr ""
+"Este mensaje no se compartió cuando publicaste/actualizaste esta entrada ya "
+"que la casilla de verificación no estaba marcada. Lo hemos guardado para que "
+"puedas seguir utilizándolo si quieres compartirlo cuando actualices esta "
+"entrada."
+
+#: admin/class-evergreen_content_poster-admin.php:1113
+msgid "Are you sure you want to delete this message?"
+msgstr "¿Estás seguro de que quieres borrar este mensaje?"
+
+#: admin/class-evergreen_content_poster-admin.php:1114
+#: admin/class-evergreen_content_poster-configurator.php:2295
+#: admin/class-evergreen_content_poster-settings.php:3517
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/class-evergreen_content_poster-admin.php:1115
+#: admin/class-evergreen_content_poster-configurator.php:2296
+#: admin/class-evergreen_content_poster-settings.php:3518
+msgid "No"
+msgstr "No"
+
+#: admin/class-evergreen_content_poster-admin.php:1124
+#: admin/class-evergreen_content_poster-admin.php:1558
+#: admin/class-evergreen_content_poster-configurator.php:1833
+#: admin/class-evergreen_content_poster-content-library.php:1424
+msgid "Write your awesome custom content here..."
+msgstr "Escribe tu impresionante contenido personalizado aquí…"
+
+#: admin/class-evergreen_content_poster-admin.php:1146
+#: admin/class-evergreen_content_poster-admin.php:1755
+#: admin/class-evergreen_content_poster-configurator.php:1878
+#: admin/class-evergreen_content_poster-content-library.php:1679
+msgid "Add Media"
+msgstr "Añadir medios"
+
+#: admin/class-evergreen_content_poster-admin.php:1156
+msgid "Also save item into your Evergreen Content library"
+msgstr "Guarda también el elemento en tu Biblioteca de contenido «evergreen»"
+
+#: admin/class-evergreen_content_poster-admin.php:1169
+#: admin/class-evergreen_content_poster-admin.php:1504
+#: admin/class-evergreen_content_poster-admin.php:1770
+#: admin/class-evergreen_content_poster-admin.php:1771
+#: admin/class-evergreen_content_poster-admin.php:1778
+#: admin/class-evergreen_content_poster-admin.php:1893
+#: admin/class-evergreen_content_poster-configurator.php:667
+#: admin/class-evergreen_content_poster-configurator.php:686
+#: admin/class-evergreen_content_poster-configurator.php:714
+#: admin/class-evergreen_content_poster-configurator.php:1225
+#: admin/class-evergreen_content_poster-configurator.php:1777
+#: admin/class-evergreen_content_poster-configurator.php:1893
+#: admin/class-evergreen_content_poster-configurator.php:1894
+#: admin/class-evergreen_content_poster-configurator.php:1901
+#: admin/class-evergreen_content_poster-configurator.php:2010
+#: admin/class-evergreen_content_poster-configurator.php:2291
+#: admin/class-evergreen_content_poster-content-library.php:840
+#: admin/class-evergreen_content_poster-content-library.php:1224
+#: admin/class-evergreen_content_poster-content-library.php:1342
+#: admin/class-evergreen_content_poster-content-library.php:1389
+#: admin/class-evergreen_content_poster-content-library.php:1694
+#: admin/class-evergreen_content_poster-content-library.php:1695
+#: admin/class-evergreen_content_poster-content-library.php:1702
+#: admin/class-evergreen_content_poster-content-library.php:1822
+#: admin/class-evergreen_content_poster-content-library.php:2053
+#: admin/class-evergreen_content_poster-content-library.php:2248
+#: admin/class-evergreen_content_poster-content-library.php:2266
+#: admin/class-evergreen_content_poster-settings.php:3233
+#: admin/class-evergreen_content_poster-settings.php:3513
+#: evergreen_content_poster.php:608
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/class-evergreen_content_poster-admin.php:1170
+#: admin/class-evergreen_content_poster-configurator.php:666
+#: admin/class-evergreen_content_poster-content-library.php:1227
+msgid "Save"
+msgstr "Guardar"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1205
+#: admin/class-evergreen_content_poster-configurator.php:1393
+#: admin/class-evergreen_content_poster-content-library.php:1019
+#, php-format
+msgid "Adding content item to your %s queue"
+msgstr "Añadiendo elemento de contenido a la cola de tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1208
+#: admin/class-evergreen_content_poster-configurator.php:1400
+#: admin/class-evergreen_content_poster-content-library.php:1055
+#, php-format
+msgid "Content item successfully added to your %s queue"
+msgstr "Elemento de contenido añadido correctamente a la cola de tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1211
+#: admin/class-evergreen_content_poster-configurator.php:1405
+#: admin/class-evergreen_content_poster-content-library.php:1060
+#, php-format
+msgid "There was a problem adding this content item to your %s queue"
+msgstr ""
+"Hubo un problema al añadir este elemento de contenido a la cola de tu %s"
+
+#: admin/class-evergreen_content_poster-admin.php:1213
+#: admin/class-evergreen_content_poster-content-library.php:1029
+msgid "Category Saved!"
+msgstr "¡Categoría guardada!"
+
+#: admin/class-evergreen_content_poster-admin.php:1214
+#: admin/class-evergreen_content_poster-content-library.php:1030
+msgid "There was an error saving your category. Please try again later."
+msgstr ""
+"Hubo un error al guardar tu categoría. Por favor, inténtalo de nuevo más "
+"tarde."
+
+#. translators: %s is the name of a social network e.g. Facebook
+#. translators: %s is the name of a social network e.g. Facebook Page
+#: admin/class-evergreen_content_poster-admin.php:1217
+#: admin/class-evergreen_content_poster-configurator.php:1410
+#: admin/class-evergreen_content_poster-content-library.php:1075
+#, php-format
+msgid "Sharing to your %s"
+msgstr "Compartiendo en tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#. translators: %s is the name of a social network e.g. Facebook Page
+#: admin/class-evergreen_content_poster-admin.php:1220
+#: admin/class-evergreen_content_poster-configurator.php:1415
+#: admin/class-evergreen_content_poster-content-library.php:1080
+#, php-format
+msgid "Successfully shared to your %s"
+msgstr "Compartido correctamente en tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1223
+#, php-format
+msgid "Adding message to your %s queue"
+msgstr "Añadiendo mensaje a la cola de tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-admin.php:1226
+#, php-format
+msgid "Successfully added message to your %s queue"
+msgstr "Mensaje añadido correctamente a la cola de tu %s"
+
+#: admin/class-evergreen_content_poster-admin.php:1233
+#: admin/class-evergreen_content_poster-configurator.php:1487
+msgid "Double Your Traffic from Social Media with the Evergreen Content Poster"
+msgstr ""
+"Duplica tu trafico desde los medios sociales con Evergreen Content Poster"
+
+#: admin/class-evergreen_content_poster-admin.php:1238
+#: admin/class-evergreen_content_poster-configurator.php:1492
+msgid ""
+"Many businesses are publishing content as a way to build their audiences and "
+"increase traffic to their websites. However, they may not be getting "
+"everything they could from each piece of content they create."
+msgstr ""
+"Muchas empresas están publicando contenidos como forma de generar audiencias "
+"y aumentar el tráfico de sus webs. Sin embargo, puede que no estén sacándole "
+"el máximo partido a cada contenido que crean."
+
+#: admin/class-evergreen_content_poster-admin.php:1239
+#: admin/class-evergreen_content_poster-configurator.php:1493
+msgid ""
+"If you are serious about your content, then you also need to be serious "
+"about driving as much traffic to it (over social media) as possible. One "
+"great way to do this is to <em>share your content on social media more than "
+"once.</em>"
+msgstr ""
+"Si te tomas en serio tu contenido, también tienes que tomarte en serio "
+"dirigir el mayor tráfico posible hacia él (mediante los medios sociales). "
+"Una forma estupenda de hacerlo es <em>compartir tus contenidos en los medios "
+"sociales más de una vez.</em>"
+
+#: admin/class-evergreen_content_poster-admin.php:1240
+#: admin/class-evergreen_content_poster-configurator.php:1494
+msgid ""
+"Below you can add as many variations of your content to be shared to all "
+"different (social) media channels as you want. Items to think about are:"
+msgstr ""
+"A continuación, puedes añadir tantas variaciones de tu contenido como "
+"quieras para compartirlo en todos los distintos canales de medios "
+"(sociales). Los elementos acerca de los que pensar son:"
+
+#: admin/class-evergreen_content_poster-admin.php:1243
+#: admin/class-evergreen_content_poster-configurator.php:1497
+msgid "Post an interesting question that is answered by the post."
+msgstr "Publica una pregunta interesante que se responda en esta entrada."
+
+#: admin/class-evergreen_content_poster-admin.php:1244
+#: admin/class-evergreen_content_poster-configurator.php:1498
+msgid ""
+"Ask the reader if they’ve ever encountered X problem that your post solves."
+msgstr ""
+"Pregúntale al lector si se ha encontrado alguna vez con X problema que tu "
+"entrada resuelve."
+
+#: admin/class-evergreen_content_poster-admin.php:1245
+#: admin/class-evergreen_content_poster-configurator.php:1499
+msgid ""
+"Post an interesting piece of data or a statistic that you bring up as part "
+"of the source information for your post."
+msgstr ""
+"Publica un dato interesante o una estadística que menciones como parte de la "
+"fuente de información de tu entrada."
+
+#: admin/class-evergreen_content_poster-admin.php:1246
+#: admin/class-evergreen_content_poster-configurator.php:1500
+msgid ""
+"Send an @mention to an influencer you mention or link to in your post, but "
+"use the mention later in the tweet so it’s a public tweet."
+msgstr ""
+"Envía una @mención a un «influencer» que menciones o enlaces en tu entrada, "
+"pero utiliza la mención más adelante en el tuit para que sea un tuit público."
+
+#: admin/class-evergreen_content_poster-admin.php:1249
+#: admin/class-evergreen_content_poster-configurator.php:1503
+msgid ""
+"We bet you can come up with many more ideas yourself. Start by adding them "
+"to your library below."
+msgstr ""
+"Seguro que a ti se te ocurren muchas más ideas. Empieza por añadirlas a tu "
+"biblioteca a continuación."
+
+#. translators: %1$s is a link start tag to Buffer signup page, %2$s is the link closing tag
+#. translators: %1s is the opening link tag and %2s is the closing link tag
+#. translators: %1$s is a link start tag to Buffer signup page, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-admin.php:1253
+#: admin/class-evergreen_content_poster-configurator.php:1507
+#: admin/class-evergreen_content_poster-content-library.php:2104
+#, php-format
+msgid ""
+"Before you can add any content though, you first have to %1sconnect your "
+"social profiles%2s."
+msgstr ""
+"Sin embargo, antes de poder añadir cualquier contenido, primero tienes que "
+"%1sconectar tus perfiles sociales%2s."
+
+#: admin/class-evergreen_content_poster-admin.php:1261
+#: admin/class-evergreen_content_poster-configurator.php:1516
+#: admin/class-evergreen_content_poster-content-library.php:1168
+msgid "Add one more post"
+msgstr "Añade una entrada más"
+
+#. translators: %1s is the name of a social network e.g. Facebook Page %2s is the time it was shared
+#: admin/class-evergreen_content_poster-admin.php:1384
+#: admin/class-evergreen_content_poster-admin.php:1435
+#: admin/class-evergreen_content_poster-configurator.php:1638
+#: admin/class-evergreen_content_poster-configurator.php:1695
+#: admin/class-evergreen_content_poster-content-library.php:714
+#: admin/class-evergreen_content_poster-content-library.php:767
+#: admin/class-evergreen_content_poster-content-library.php:1925
+#: admin/class-evergreen_content_poster-content-library.php:1989
+#, php-format
+msgid "Last shared to your %1s at %2s"
+msgstr "Compartido por última vez en %1s a las %2s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#. translators: %s is the name of the social network - e.g. '<company name> Twitter'
+#. translators: %s is the name of a social network e.g. Facebook
+#. translators: %s is the name of a social network e.g. Facebook Page
+#. translators: %s is the name of the social network - e.g. '<company name> Twitter'
+#. translators: %s is the name of a social network e.g. Facebook Page
+#. translators: %s is the name of the social network - e.g. '<company name> Twitter'
+#. translators: %s is the name of a social network e.g. Facebook Page
+#: admin/class-evergreen_content_poster-admin.php:1391
+#: admin/class-evergreen_content_poster-admin.php:1441
+#: admin/class-evergreen_content_poster-admin.php:1829
+#: admin/class-evergreen_content_poster-admin.php:1870
+#: admin/class-evergreen_content_poster-configurator.php:1648
+#: admin/class-evergreen_content_poster-configurator.php:1705
+#: admin/class-evergreen_content_poster-configurator.php:1948
+#: admin/class-evergreen_content_poster-configurator.php:1989
+#: admin/class-evergreen_content_poster-content-library.php:724
+#: admin/class-evergreen_content_poster-content-library.php:777
+#: admin/class-evergreen_content_poster-content-library.php:1753
+#: admin/class-evergreen_content_poster-content-library.php:1801
+#: admin/class-evergreen_content_poster-content-library.php:1935
+#: admin/class-evergreen_content_poster-content-library.php:1999
+#, php-format
+msgid "Not shared to your %s yet"
+msgstr "Todavía no se ha compartido en tu %s"
+
+#: admin/class-evergreen_content_poster-admin.php:1406
+#: admin/class-evergreen_content_poster-admin.php:1845
+#: admin/class-evergreen_content_poster-configurator.php:1665
+#: admin/class-evergreen_content_poster-configurator.php:1964
+#: admin/class-evergreen_content_poster-content-library.php:1770
+#: admin/class-evergreen_content_poster-content-library.php:1955
+msgid "Share now"
+msgstr "Compartir ahora"
+
+#: admin/class-evergreen_content_poster-admin.php:1407
+#: admin/class-evergreen_content_poster-admin.php:1846
+#: admin/class-evergreen_content_poster-configurator.php:1666
+#: admin/class-evergreen_content_poster-configurator.php:1965
+#: admin/class-evergreen_content_poster-content-library.php:1771
+#: admin/class-evergreen_content_poster-content-library.php:1956
+msgid "Add to queue"
+msgstr "Añadir a la cola"
+
+#: admin/class-evergreen_content_poster-admin.php:1503
+#: admin/class-evergreen_content_poster-admin.php:1892
+#: admin/class-evergreen_content_poster-configurator.php:1776
+#: admin/class-evergreen_content_poster-configurator.php:2009
+#: admin/class-evergreen_content_poster-content-library.php:839
+#: admin/class-evergreen_content_poster-content-library.php:1341
+#: admin/class-evergreen_content_poster-content-library.php:1388
+#: admin/class-evergreen_content_poster-content-library.php:1821
+#: admin/class-evergreen_content_poster-content-library.php:2052
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/class-evergreen_content_poster-admin.php:1571
+#: admin/class-evergreen_content_poster-content-library.php:1437
+msgid "Additional Google Business Profile Post needed content"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1577
+#: admin/class-evergreen_content_poster-content-library.php:1443
+msgid "Post Type"
+msgstr "Tipo de publicación"
+
+#: admin/class-evergreen_content_poster-admin.php:1581
+#: admin/class-evergreen_content_poster-content-library.php:1447
+msgid "What's New?"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1583
+#: admin/class-evergreen_content_poster-content-library.php:1449
+msgid "Event"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1585
+#: admin/class-evergreen_content_poster-content-library.php:1451
+msgid "Offer"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1593
+#: admin/class-evergreen_content_poster-admin.php:1641
+#: admin/class-evergreen_content_poster-content-library.php:1459
+#: admin/class-evergreen_content_poster-content-library.php:1535
+msgid "Add a button (optional)"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1597
+#: admin/class-evergreen_content_poster-admin.php:1645
+#: admin/class-evergreen_content_poster-content-library.php:1463
+#: admin/class-evergreen_content_poster-content-library.php:1539
+msgid "No Button"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1598
+#: admin/class-evergreen_content_poster-admin.php:1646
+#: admin/class-evergreen_content_poster-content-library.php:1464
+#: admin/class-evergreen_content_poster-content-library.php:1540
+msgid "Book"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1599
+#: admin/class-evergreen_content_poster-admin.php:1647
+#: admin/class-evergreen_content_poster-content-library.php:1465
+#: admin/class-evergreen_content_poster-content-library.php:1541
+msgid "Order"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1600
+#: admin/class-evergreen_content_poster-admin.php:1648
+#: admin/class-evergreen_content_poster-content-library.php:1466
+#: admin/class-evergreen_content_poster-content-library.php:1542
+msgid "Shop"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1601
+#: admin/class-evergreen_content_poster-admin.php:1649
+#: admin/class-evergreen_content_poster-content-library.php:1467
+#: admin/class-evergreen_content_poster-content-library.php:1543
+msgid "Learn more"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1602
+#: admin/class-evergreen_content_poster-admin.php:1650
+#: admin/class-evergreen_content_poster-content-library.php:1468
+#: admin/class-evergreen_content_poster-content-library.php:1544
+msgid "Sign up"
+msgstr "Registrarse"
+
+#: admin/class-evergreen_content_poster-admin.php:1603
+#: admin/class-evergreen_content_poster-admin.php:1651
+#: admin/class-evergreen_content_poster-content-library.php:1469
+#: admin/class-evergreen_content_poster-content-library.php:1545
+msgid "Call"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1611
+#: admin/class-evergreen_content_poster-admin.php:1659
+#: admin/class-evergreen_content_poster-content-library.php:1477
+#: admin/class-evergreen_content_poster-content-library.php:1553
+msgid "Button Link"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1614
+#: admin/class-evergreen_content_poster-admin.php:1662
+#: admin/class-evergreen_content_poster-content-library.php:1480
+#: admin/class-evergreen_content_poster-content-library.php:1556
+msgid "https:/www.yourawesomewebsite.com/"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1623
+#: admin/class-evergreen_content_poster-admin.php:1671
+#: admin/class-evergreen_content_poster-content-library.php:1489
+#: admin/class-evergreen_content_poster-content-library.php:1566
+msgid "Title"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1626
+#: admin/class-evergreen_content_poster-content-library.php:1492
+#, php-format
+msgid "(Example: 20% off in store or online)"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1632
+#: admin/class-evergreen_content_poster-admin.php:1680
+#: admin/class-evergreen_content_poster-content-library.php:1498
+#: admin/class-evergreen_content_poster-content-library.php:1575
+#: includes/class-evergreen_content_poster.php:306
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/class-evergreen_content_poster-admin.php:1635
+#: admin/class-evergreen_content_poster-admin.php:1683
+#: admin/class-evergreen_content_poster-content-library.php:1501
+#: admin/class-evergreen_content_poster-content-library.php:1578
+msgid "Select start and end date"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1674
+#: admin/class-evergreen_content_poster-content-library.php:1569
+msgid "Example: Sale this week"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1689
+#: admin/class-evergreen_content_poster-content-library.php:1612
+msgid "Coupon Code (optional)"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1692
+#: admin/class-evergreen_content_poster-content-library.php:1615
+#, php-format
+msgid "Example: 15% off in store"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1698
+#: admin/class-evergreen_content_poster-content-library.php:1621
+msgid "Link to redeem offer (optional)"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1701
+#: admin/class-evergreen_content_poster-content-library.php:1624
+msgid "Link to redeem offer https:/www.yourawesomewebsite.com/"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1707
+#: admin/class-evergreen_content_poster-content-library.php:1630
+msgid "Terms and Conditions (optional)"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1710
+#: admin/class-evergreen_content_poster-content-library.php:1633
+msgid ""
+"These Terms and Conditions constitute a legally binding agreement made "
+"between..."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-admin.php:1718
+#: admin/class-evergreen_content_poster-configurator.php:1844
+#: admin/class-evergreen_content_poster-content-library.php:1641
+msgid "Evergreen Content Category"
+msgstr "Categoría de contenido «evergreen»"
+
+#: admin/class-evergreen_content_poster-admin.php:1719
+#: admin/class-evergreen_content_poster-configurator.php:1845
+#: admin/class-evergreen_content_poster-content-library.php:1642
+msgid "Select the category for this post, or leave for default"
+msgstr "Selecciona la categoría para esta entrada o déjala por defecto"
+
+#: admin/class-evergreen_content_poster-admin.php:1734
+#: admin/class-evergreen_content_poster-configurator.php:1860
+#: admin/class-evergreen_content_poster-content-library.php:1658
+msgid "Evergreen Content Share Image"
+msgstr "Contenido «evergreen» Compartir imagen"
+
+#: admin/class-evergreen_content_poster-admin.php:1767
+#: admin/class-evergreen_content_poster-configurator.php:1890
+#: admin/class-evergreen_content_poster-content-library.php:1691
+msgid "Add Item to Library"
+msgstr "Añadir elemento a la Biblioteca"
+
+#: admin/class-evergreen_content_poster-admin.php:1776
+#: admin/class-evergreen_content_poster-configurator.php:1899
+#: admin/class-evergreen_content_poster-content-library.php:1700
+msgid "Do you really want to stop adding this item to your library?"
+msgstr "¿Realmente quieres dejar de añadir este elemento a tu biblioteca?"
+
+#: admin/class-evergreen_content_poster-admin.php:1796
+#: admin/class-evergreen_content_poster-content-library.php:1720
+msgid "characters remaining."
+msgstr "caracteres restantes."
+
+#: admin/class-evergreen_content_poster-admin.php:1809
+#: admin/class-evergreen_content_poster-admin.php:1810
+#: admin/class-evergreen_content_poster-configurator.php:1930
+#: admin/class-evergreen_content_poster-configurator.php:1931
+#: admin/class-evergreen_content_poster-content-library.php:1733
+#: admin/class-evergreen_content_poster-content-library.php:1734
+msgid ""
+"Add one or more images that are optimized for maximum exposure on Pinterest. "
+"We recommend using an image that is formatted in a 2:3 aspect ratio like "
+"1000 x 1500."
+msgstr ""
+"Añade una o más imágenes optimizadas para conseguir la máxima exposición en "
+"Pinterest. Recomendamos usar una imagen con formato de relación de aspecto "
+"2:3, como 1000x1500."
+
+#. translators: %1s is a <strong> html tag, %2s is the </strong> html tag, %3s is an html link, %4s is the corresponding closing link tag, %5s is an html link tag and %6s is the corresponding closing link tag
+#: admin/class-evergreen_content_poster-admin.php:2099
+#, php-format
+msgid ""
+"%1sEvergreen Content Poster:%2s The WordPress Cron seems to be disabled on "
+"your website. This can cause sharing issues with the Evergreen Content "
+"Poster. If sharing is not working, then see %3shere for solutions."
+"%4s%5sDismiss%6s"
+msgstr ""
+"%1sEvergreen Content Poster:%2s parece que el Cron de WordPress está "
+"desactivado en tu web. Esto puede causar problemas al compartir con "
+"Evergreen Content Poster. Si compartir no funciona, entonces, ve %3saquí "
+"para obtener soluciones.%4s%5sDescartars%6s"
+
+#: admin/class-evergreen_content_poster-admin.php:2130
+#: admin/class-evergreen_content_poster-settings.php:2392
+msgid ""
+"There are no social media accounts connected yet to the Evergreen Content "
+"Poster, let's add some socials &#128170;"
+msgstr ""
+"Todavía no hay cuentas de medios sociales conectadas a Evergreen Content "
+"Poster, vamos a añadir algunos medios &#128170;"
+
+#. translators: %1s is a link start tag to an FAQ article to help troubleshoot the cron issue, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-admin.php:2133
+#, php-format
+msgid ""
+"Before the Evergreen Content Poster can start to share your social media "
+"posts we first need to have a connection with your social media profiles. "
+"%1sClick %2shere to start connecting your social media profiles to the "
+"plugin.%3s"
+msgstr ""
+"Antes de que Evergreen Content Poster pueda comenzar a compartir tus "
+"entradas en los medios sociales, necesitamos tener una conexión con tus "
+"perfiles en los medios sociales. %1sHaz clic %2saquí para comenzar a "
+"conectar tus perfiles en los medios sociales con el plugin.%3s"
+
+#: admin/class-evergreen_content_poster-configurator.php:166
+#: admin/class-evergreen_content_poster-content-library.php:331
+#: admin/class-evergreen_content_poster-content-library.php:374
+#: admin/class-evergreen_content_poster-content-library.php:489
+#: admin/class-evergreen_content_poster-content-library.php:521
+#: admin/class-evergreen_content_poster-content-library.php:557
+msgid "The category doesn't exist"
+msgstr "La categoría no existe"
+
+#: admin/class-evergreen_content_poster-configurator.php:193
+#: admin/class-evergreen_content_poster-content-library.php:315
+#: admin/class-evergreen_content_poster-content-library.php:358
+#: admin/class-evergreen_content_poster-content-library.php:403
+#: admin/class-evergreen_content_poster-content-library.php:471
+#: admin/class-evergreen_content_poster-content-library.php:503
+#: admin/class-evergreen_content_poster-content-library.php:535
+#: admin/class-evergreen_content_poster-content-library.php:570
+msgid "Success"
+msgstr "Éxito"
+
+#: admin/class-evergreen_content_poster-configurator.php:350
+msgid "installation wizard"
+msgstr "asistente de instalación"
+
+#: admin/class-evergreen_content_poster-configurator.php:354
+msgid "close the wizard"
+msgstr "cerrar el asistente"
+
+#: admin/class-evergreen_content_poster-configurator.php:361
+#: admin/class-evergreen_content_poster-configurator.php:368
+msgid "Step 1:"
+msgstr "Paso 1:"
+
+#: admin/class-evergreen_content_poster-configurator.php:361
+msgid "Social accounts"
+msgstr "Cuentas sociales"
+
+#: admin/class-evergreen_content_poster-configurator.php:369
+msgid "Setting up your social accounts"
+msgstr "Ajustes de tus cuentas sociales"
+
+#: admin/class-evergreen_content_poster-configurator.php:374
+#: admin/class-evergreen_content_poster-configurator.php:381
+#: admin/class-evergreen_content_poster-configurator.php:575
+msgid "Step 2:"
+msgstr "Paso 2:"
+
+#: admin/class-evergreen_content_poster-configurator.php:374
+msgid "Content categories"
+msgstr "Categorías de contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:382
+msgid "Setting up your content categories"
+msgstr "Ajustes de tus categorías de contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:387
+#: admin/class-evergreen_content_poster-configurator.php:395
+#: admin/class-evergreen_content_poster-configurator.php:722
+msgid "Step 3:"
+msgstr "Paso 3:"
+
+#: admin/class-evergreen_content_poster-configurator.php:387
+msgid "Create schedule"
+msgstr "Crear calendario"
+
+#: admin/class-evergreen_content_poster-configurator.php:396
+msgid "Creating your posting schedule"
+msgstr "Creando tu calendario de publicación"
+
+#: admin/class-evergreen_content_poster-configurator.php:401
+#: admin/class-evergreen_content_poster-configurator.php:408
+#: admin/class-evergreen_content_poster-configurator.php:1431
+msgid "Step 4:"
+msgstr "Paso 4:"
+
+#: admin/class-evergreen_content_poster-configurator.php:401
+msgid "Create content"
+msgstr "Crear contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:409
+msgid "Creating your first content"
+msgstr "Creando tu primer contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:414
+#: admin/class-evergreen_content_poster-configurator.php:421
+msgid "Step 5:"
+msgstr "Paso 5:"
+
+#: admin/class-evergreen_content_poster-configurator.php:414
+msgid "Optional: business type"
+msgstr "opcional: tipo de negocio"
+
+#: admin/class-evergreen_content_poster-configurator.php:422
+msgid "Optional: Let us know your business type"
+msgstr "Opcional: indícanos tu tipo de negocio"
+
+#: admin/class-evergreen_content_poster-configurator.php:427
+#: admin/class-evergreen_content_poster-configurator.php:434
+msgid "Step 6:"
+msgstr "Paso 6:"
+
+#: admin/class-evergreen_content_poster-configurator.php:427
+msgid "Optional: Newsletter"
+msgstr "opcional: boletín de noticias"
+
+#: admin/class-evergreen_content_poster-configurator.php:435
+msgid "Optional: Subscribe to our newsletter"
+msgstr "Opcional: suscríbete a nuestro boletín"
+
+#: admin/class-evergreen_content_poster-configurator.php:440
+#: admin/class-evergreen_content_poster-configurator.php:447
+msgid "Step 7:"
+msgstr "Paso 7:"
+
+#: admin/class-evergreen_content_poster-configurator.php:440
+msgid "Success!"
+msgstr "¡Éxito!"
+
+#: admin/class-evergreen_content_poster-configurator.php:448
+msgid "Success! You're ready to start sharing"
+msgstr "¡Éxito! Estás listo para empezar a compartir"
+
+#: admin/class-evergreen_content_poster-configurator.php:459
+#: admin/class-evergreen_content_poster-settings.php:2349
+msgid "Settings Saved!"
+msgstr "¡Ajustes guardados!"
+
+#: admin/class-evergreen_content_poster-configurator.php:460
+#: admin/class-evergreen_content_poster-settings.php:2350
+msgid "There was an error saving your settings. Please try again later."
+msgstr ""
+"Hubo un error al guardar tus ajustes. Por favor, inténtalo de nuevo más "
+"tarde."
+
+#: admin/class-evergreen_content_poster-configurator.php:466
+msgid "Welcome to the Evergreen Content Poster &#128640; &#127881;"
+msgstr "Bienvenido a Evergreen Content Poster &#128640; &#127881;"
+
+#: admin/class-evergreen_content_poster-configurator.php:467
+#, php-format
+msgid "Thank you for installing and using the Evergreen Content Poster v%s."
+msgstr "Gracias por instalar y utilizar Evergreen Content Poster v%s."
+
+#: admin/class-evergreen_content_poster-configurator.php:468
+msgid ""
+"This plugin will allow you to easily double your traffic from social media "
+"by keeping your content alive and in front of the audiences that matter."
+msgstr ""
+"Este plugin te permitirá duplicar fácilmente tu tráfico desde los medios "
+"sociales manteniendo tu contenido vivo y frente a las audiencias que "
+"importan."
+
+#: admin/class-evergreen_content_poster-configurator.php:469
+msgid ""
+"But before we can do that, we first need to run a little setup, so we know "
+"to which social networks we need to share your content and at what time."
+msgstr ""
+"Pero, antes de poder hacerlo, tenemos que hacer unos pequeños ajustes para "
+"saber a qué medios sociales tenemos que compartir tu contenido y a qué hora."
+
+#: admin/class-evergreen_content_poster-configurator.php:470
+msgid ""
+"Let's <strong><em>start by connecting your social media accounts</em></"
+"strong>."
+msgstr ""
+"Empecemos <strong><em>por conectar tus cuentas en medios sociales</em></"
+"strong>."
+
+#: admin/class-evergreen_content_poster-configurator.php:471
+msgid ""
+"<em>Note: At the moment, we only support posting to social media via a "
+"(free) Buffer account. But more native networks will be added in the future."
+"</em>"
+msgstr ""
+"<em>Nota: por el momento, solo admitimos la publicación en los medios "
+"sociales a través de una cuenta (gratuita) de Buffer. Pero, en el futuro, se "
+"añadirán más redes nativas.</em>"
+
+#: admin/class-evergreen_content_poster-configurator.php:477
+#: admin/class-evergreen_content_poster-settings.php:2655
+msgid "Connect to Buffer"
+msgstr "Conectar a Buffer"
+
+#: admin/class-evergreen_content_poster-configurator.php:479
+#: admin/class-evergreen_content_poster-configurator.php:481
+#: admin/class-evergreen_content_poster-settings.php:2657
+#: admin/class-evergreen_content_poster-settings.php:2659
+msgid "Connected to Buffer"
+msgstr "Conectado a Buffer"
+
+#: admin/class-evergreen_content_poster-configurator.php:479
+#: admin/class-evergreen_content_poster-settings.php:2657
+msgid "Disconnect from Buffer"
+msgstr "Desconectado de Buffer"
+
+#: admin/class-evergreen_content_poster-configurator.php:488
+#: admin/class-evergreen_content_poster-settings.php:2664
+msgid "You need to connect a social media account."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-configurator.php:488
+#: admin/class-evergreen_content_poster-settings.php:2664
+msgid ""
+"If you want to start using the Evergreen Content Poster, use the \"Connect "
+"to Buffer\" button above to sign in and connect your Buffer account to the "
+"plugin."
+msgstr ""
+
+#. translators: %1$s is a link start tag to Buffer signup page, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-configurator.php:492
+#: admin/class-evergreen_content_poster-settings.php:2668
+#, php-format
+msgid ""
+"If you don't have a <strong>Buffer</strong> account yet, you can create a "
+"%1sfree Buffer account here%2s."
+msgstr ""
+"Si todavía no tienes una cuenta de <strong>Buffer</strong>, puedes crear una "
+"%1scuenta gratuita aquí%2s."
+
+#: admin/class-evergreen_content_poster-configurator.php:502
+msgid "Connected Social Profiles"
+msgstr "Conectado a los perfiles sociales"
+
+#: admin/class-evergreen_content_poster-configurator.php:554
+#: admin/class-evergreen_content_poster-settings.php:2685
+msgid "No profiles added to Buffer yet..."
+msgstr "Todavía no se han añadido perfiles a Buffer…"
+
+#. translators: %1$s is a link start tag to the Buffer account connection page, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-configurator.php:557
+#: admin/class-evergreen_content_poster-settings.php:2688
+#, php-format
+msgid ""
+"%1sAdd at least one profile to your Buffer account%2s, to start using the "
+"Evergreen Content Poster."
+msgstr ""
+"%1s Agregue al menos un perfil a su cuenta de Buffer%2s, para comenzar a "
+"usar Evergreen Content Poster."
+
+#: admin/class-evergreen_content_poster-configurator.php:561
+#: admin/class-evergreen_content_poster-settings.php:2692
+msgid ""
+"Note: After you've added one or more accounts to your Buffer account, you "
+"need to disconnect and connect your Buffer account again to the Evergreen "
+"Content Poster."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-configurator.php:569
+#: admin/class-evergreen_content_poster-configurator.php:637
+#: admin/class-evergreen_content_poster-configurator.php:1380
+#: admin/class-evergreen_content_poster-configurator.php:2034
+#: admin/class-evergreen_content_poster-configurator.php:2206
+#: admin/class-evergreen_content_poster-configurator.php:2248
+msgid "next"
+msgstr "siguiente"
+
+#: admin/class-evergreen_content_poster-configurator.php:575
+msgid "Your content categories"
+msgstr "Tus categorías de contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:576
+msgid ""
+"Now that your social media accounts are connected, let's start by creating "
+"content categories."
+msgstr ""
+"Ahora que tus cuentas de medios sociales están conectadas, vamos a empezar a "
+"crear categorías de contenido."
+
+#: admin/class-evergreen_content_poster-configurator.php:577
+msgid ""
+"Because while content is king, you don't want to bore your followers with "
+"only the same types of content over and over again."
+msgstr ""
+"Porque si bien el contenido es el rey, no querrás aburrir a tus seguidores "
+"repitiendo solo el mismo tipo de contenido una y otra vez, ¿verdad?"
+
+#: admin/class-evergreen_content_poster-configurator.php:578
+msgid ""
+"You do this by <strong><em>creating a healthy and diverse mix of content.</"
+"em></strong>"
+msgstr ""
+"Pues esto se evita <strong><em>creando una mezcla de contenido sana y "
+"diversa.</em></strong>"
+
+#: admin/class-evergreen_content_poster-configurator.php:579
+msgid ""
+"Different categories can have different content schedules, which we will get "
+"to in the next step."
+msgstr ""
+"Las diferentes categorías pueden tener diferentes calendarios de contenido. "
+"Llegaremos a ellos en el siguiente paso."
+
+#: admin/class-evergreen_content_poster-configurator.php:580
+msgid "Use the preset categories below to get a start on your content mix:"
+msgstr ""
+"Utiliza las categorías preeajustadas que aparecen a continuación para "
+"comenzar con tu mezcla de contenidos:"
+
+#: admin/class-evergreen_content_poster-configurator.php:596
+#: admin/class-evergreen_content_poster-configurator.php:616
+msgid "edit"
+msgstr "editar"
+
+#: admin/class-evergreen_content_poster-configurator.php:601
+#: admin/class-evergreen_content_poster-configurator.php:621
+msgid "delete"
+msgstr "borrar"
+
+#: admin/class-evergreen_content_poster-configurator.php:628
+msgid "Or create new categories that suit your needs:"
+msgstr "O crea nuevas categoría que se adapten a tus necesidades:"
+
+#: admin/class-evergreen_content_poster-configurator.php:631
+#: admin/class-evergreen_content_poster-content-library.php:1163
+msgid "Add new category"
+msgstr "Añadir nueva categoría"
+
+#: admin/class-evergreen_content_poster-configurator.php:640
+#: admin/class-evergreen_content_poster-configurator.php:1383
+#: admin/class-evergreen_content_poster-configurator.php:2037
+#: admin/class-evergreen_content_poster-configurator.php:2209
+#: admin/class-evergreen_content_poster-configurator.php:2251
+#: admin/class-evergreen_content_poster-configurator.php:2277
+msgid "previous"
+msgstr "anterior"
+
+#: admin/class-evergreen_content_poster-configurator.php:644
+msgid "Edit your category"
+msgstr "Edita tu categoría"
+
+#: admin/class-evergreen_content_poster-configurator.php:645
+#: admin/class-evergreen_content_poster-configurator.php:692
+#: admin/class-evergreen_content_poster-configurator.php:693
+#: admin/class-evergreen_content_poster-content-library.php:1221
+msgid "Category name"
+msgstr "Nombre de categoría"
+
+#: admin/class-evergreen_content_poster-configurator.php:647
+#: admin/class-evergreen_content_poster-configurator.php:694
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/class-evergreen_content_poster-configurator.php:650
+#: admin/class-evergreen_content_poster-configurator.php:697
+#: admin/class-evergreen_content_poster-content-library.php:1233
+msgid "Can also be used as random category"
+msgstr "También puede utilizarse como categoría aleatoria"
+
+#: admin/class-evergreen_content_poster-configurator.php:656
+#: admin/class-evergreen_content_poster-configurator.php:703
+#: admin/class-evergreen_content_poster-configurator.php:864
+#: admin/class-evergreen_content_poster-content-library.php:1244
+#: admin/class-evergreen_content_poster-content-library.php:1326
+#: admin/class-evergreen_content_poster-content-library.php:1332
+#: admin/class-evergreen_content_poster-content-library.php:1373
+#: admin/class-evergreen_content_poster-content-library.php:1379
+#: admin/class-evergreen_content_poster-content-library.php:1518
+#: admin/class-evergreen_content_poster-content-library.php:1595
+#: admin/class-evergreen_content_poster-settings.php:2590
+#: admin/class-evergreen_content_poster-settings.php:2624
+#: admin/class-evergreen_content_poster-settings.php:2642
+#: admin/class-evergreen_content_poster-settings.php:2870
+msgid "ON"
+msgstr "ACTIVAR"
+
+#: admin/class-evergreen_content_poster-configurator.php:657
+#: admin/class-evergreen_content_poster-configurator.php:704
+#: admin/class-evergreen_content_poster-configurator.php:865
+#: admin/class-evergreen_content_poster-content-library.php:1245
+#: admin/class-evergreen_content_poster-content-library.php:1327
+#: admin/class-evergreen_content_poster-content-library.php:1333
+#: admin/class-evergreen_content_poster-content-library.php:1374
+#: admin/class-evergreen_content_poster-content-library.php:1380
+#: admin/class-evergreen_content_poster-content-library.php:1519
+#: admin/class-evergreen_content_poster-content-library.php:1596
+#: admin/class-evergreen_content_poster-settings.php:2591
+#: admin/class-evergreen_content_poster-settings.php:2625
+#: admin/class-evergreen_content_poster-settings.php:2643
+#: admin/class-evergreen_content_poster-settings.php:2871
+msgid "OFF"
+msgstr "DESACTIVAR"
+
+#: admin/class-evergreen_content_poster-configurator.php:663
+#: admin/class-evergreen_content_poster-configurator.php:710
+#: admin/class-evergreen_content_poster-content-library.php:1234
+msgid ""
+"If you chose \"Random Category\" (instead of a specific category) in your "
+"schedule for a particular account, we randomly select a category from those "
+"that have this checkbox turned on, and also have posts available for that "
+"particular account. Within the randomly selected category we use the next "
+"content in line."
+msgstr ""
+"Si eliges «Categoría aleatoria» (en lugar de una categoría específica) en tu "
+"calendario para una cuenta en particular, seleccionamos aleatoriamente una "
+"categoría de entre las que tienen esta casilla de verificación activada y "
+"también tienen entradas disponibles para esa cuenta en particular. Dentro de "
+"la categoría seleccionada aleatoriamente, usamos el siguiente contenido de "
+"la cola."
+
+#: admin/class-evergreen_content_poster-configurator.php:672
+#, php-format
+msgid "Delete category %s"
+msgstr "Borrar categoría %s"
+
+#: admin/class-evergreen_content_poster-configurator.php:673
+msgid "Are you sure that you want to delete this content category?"
+msgstr "¿Estás seguro de que quieres borrar esta categoría de contenido?"
+
+#: admin/class-evergreen_content_poster-configurator.php:676
+msgid "Deleting a category will trigger the following changes:"
+msgstr "Borrar una categoría provocará los siguientes cambios:"
+
+#: admin/class-evergreen_content_poster-configurator.php:678
+#: admin/class-evergreen_content_poster-content-library.php:2242
+#: admin/class-evergreen_content_poster-content-library.php:2260
+msgid "Any schedule related to this category will be removed."
+msgstr "Cualquier calendario relacionado con esta categoría será eliminado."
+
+#: admin/class-evergreen_content_poster-configurator.php:680
+#: admin/class-evergreen_content_poster-content-library.php:2245
+#: admin/class-evergreen_content_poster-content-library.php:2263
+msgid "Are you sure you want to remove this category?"
+msgstr "¿Estás seguro de que quieres eliminar esta categoría?"
+
+#: admin/class-evergreen_content_poster-configurator.php:685
+msgid "Delete"
+msgstr "Borrar"
+
+#: admin/class-evergreen_content_poster-configurator.php:691
+msgid "Create your category"
+msgstr "Crea tu categoría"
+
+#: admin/class-evergreen_content_poster-configurator.php:695
+msgid ""
+"Give your category an internal description so you know what this should be "
+"about."
+msgstr ""
+"Dale a tu categoría una descripción interna para que sepas de qué trata."
+
+#: admin/class-evergreen_content_poster-configurator.php:713
+msgid "Create"
+msgstr "Crear"
+
+#: admin/class-evergreen_content_poster-configurator.php:722
+msgid "Your content schedule"
+msgstr "Tu calendario de contenido"
+
+#: admin/class-evergreen_content_poster-configurator.php:723
+msgid ""
+"Within the Evergreen Content Poster, we allow for three different ways to "
+"schedule and share your content:"
+msgstr ""
+"En Evergreen Content Poster, permitimos tres manera diferentes de programar "
+"y compartir tu contenido:"
+
+#: admin/class-evergreen_content_poster-configurator.php:725
+msgid ""
+"<strong>Share X number of posts every day to your social media profiles</"
+"strong>. This means that during the day your posts will be evenly scheduled "
+"for each social network (this is by far the easiest and quickest way to get "
+"started). If you put zero, this social channel will be skipped."
+msgstr ""
+"<strong>Comparte un número X de entradas diarias en tus perfiles de medios "
+"sociales</strong>. Esto quiere decir que, durante el día, tus entradas se "
+"programarán de manera uniforme para cada red social (esta es, de lejos, la "
+"manera más fácil y rápida de dar los primeros pasos). Si pones cero, este "
+"canal social se omitirá."
+
+#: admin/class-evergreen_content_poster-configurator.php:726
+msgid ""
+"Monitor the queues of your connected profiles on Buffer and <strong>only "
+"shares an item to your queue the moment it detects the queue is empty</"
+"strong>. (especially if you already schedule and share a lot of content via "
+"social media)"
+msgstr ""
+"Hace seguimiento de las colas de tus perfiles conectados en Buffer y "
+"<strong>comparte solo un elemento a tu cola en cuanto detecta que la cola "
+"está vacía</strong>. (sobre todo si ya programas y compartes muchos "
+"contenidos a través de los medios sociales)"
+
+#: admin/class-evergreen_content_poster-configurator.php:727
+msgid ""
+"<strong>On which day and at which time do you want your content to be shared "
+"to which social media account</strong>. (if you know your audience, and when "
+"they will be online, this would be our recommendation as it is the most "
+"customisable option)"
+msgstr ""
+"<strong>A qué día y a qué hora quieres que se compartan tus contenidos en "
+"cada cuenta de los medios sociales.</strong>. (si conoces a tu público y "
+"sabes cuándo se conectará, esta sería nuestra recomendación, puesto que es "
+"la opción más personalizable)"
+
+#: admin/class-evergreen_content_poster-configurator.php:731
+#: admin/class-evergreen_content_poster-settings.php:2748
+msgid "Schedule Settings"
+msgstr "Ajustes del calendario"
+
+#: admin/class-evergreen_content_poster-configurator.php:759
+#: admin/class-evergreen_content_poster-settings.php:2333
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: admin/class-evergreen_content_poster-configurator.php:764
+#: admin/class-evergreen_content_poster-settings.php:2772
+msgid "Post number of posts daily"
+msgstr "Publicar un número de entradas diarias"
+
+#: admin/class-evergreen_content_poster-configurator.php:769
+#: admin/class-evergreen_content_poster-settings.php:2777
+msgid "#1 Post number of posts daily"
+msgstr "#1 Publicar un número de entradas diarias"
+
+#: admin/class-evergreen_content_poster-configurator.php:770
+#: admin/class-evergreen_content_poster-settings.php:2778
+msgid ""
+"Share X number of posts to your social media profiles evenly spread out "
+"during the day."
+msgstr ""
+"Comparte un número X de entradas en tus perfiles de medios sociales "
+"repartidas uniformemente a lo largo del día."
+
+#: admin/class-evergreen_content_poster-configurator.php:783
+#: admin/class-evergreen_content_poster-configurator.php:825
+#: admin/class-evergreen_content_poster-configurator.php:895
+#: admin/class-evergreen_content_poster-settings.php:2790
+#: admin/class-evergreen_content_poster-settings.php:2833
+#: admin/class-evergreen_content_poster-settings.php:2900
+msgid "Activate"
+msgstr "Activar"
+
+#: admin/class-evergreen_content_poster-configurator.php:784
+#: admin/class-evergreen_content_poster-configurator.php:826
+#: admin/class-evergreen_content_poster-configurator.php:896
+#: admin/class-evergreen_content_poster-settings.php:2791
+#: admin/class-evergreen_content_poster-settings.php:2834
+#: admin/class-evergreen_content_poster-settings.php:2901
+msgid "Currently Active"
+msgstr "Actualmente activado"
+
+#: admin/class-evergreen_content_poster-configurator.php:796
+#: admin/class-evergreen_content_poster-settings.php:2804
+msgid "Posts per day"
+msgstr "Entradas al día"
+
+#: admin/class-evergreen_content_poster-configurator.php:807
+#: admin/class-evergreen_content_poster-settings.php:2816
+msgid "Post only when Buffer queue gets empty"
+msgstr "Publicar solo cuando la cola de Buffer esté vacía"
+
+#: admin/class-evergreen_content_poster-configurator.php:811
+#: admin/class-evergreen_content_poster-settings.php:2820
+msgid "#2 Post only when Buffer queue gets empty"
+msgstr "#2 Publicar solo cuando la cola de Buffer esté vacía"
+
+#: admin/class-evergreen_content_poster-configurator.php:812
+#: admin/class-evergreen_content_poster-settings.php:2821
+msgid "Get posts to your Buffer queue every time it is empty"
+msgstr "Envía entradas a la cola de tu Buffer cada vez que esté vacía"
+
+#: admin/class-evergreen_content_poster-configurator.php:876
+#: admin/class-evergreen_content_poster-settings.php:2882
+msgid "Post according to schedule"
+msgstr "Publicar de acuerdo al calendario"
+
+#: admin/class-evergreen_content_poster-configurator.php:880
+#: admin/class-evergreen_content_poster-settings.php:2886
+msgid "#3 Schedule"
+msgstr "#3 Calendario"
+
+#: admin/class-evergreen_content_poster-configurator.php:881
+#: admin/class-evergreen_content_poster-settings.php:2887
+msgid "Send posts at specific times using a custom schedule"
+msgstr ""
+"Envía entradas a horas específicas utilizando un calendario personalizado"
+
+#: admin/class-evergreen_content_poster-configurator.php:882
+#: admin/class-evergreen_content_poster-settings.php:2888
+msgid ""
+"Not sure when it is best to share your content, or are you looking for a "
+"quick way to create one? Use one of the preset schedules to post according "
+"to general best practices for each platform."
+msgstr ""
+"¿No estás seguro de cuándo es mejor compartir tus contenidos o buscas una "
+"forma rápida de crearlos? Utiliza uno de los calendarios preajustados para "
+"publicar según las mejores prácticas generales de cada plataforma."
+
+#: admin/class-evergreen_content_poster-configurator.php:901
+#: admin/class-evergreen_content_poster-settings.php:2907
+msgid "How often do you want to post?"
+msgstr "¿Con qué frecuencia quieres publicar?"
+
+#: admin/class-evergreen_content_poster-configurator.php:909
+#: admin/class-evergreen_content_poster-settings.php:2917
+msgid "Now and again"
+msgstr "De vez en cuando"
+
+#: admin/class-evergreen_content_poster-configurator.php:914
+#: admin/class-evergreen_content_poster-settings.php:2923
+msgid "Regularly"
+msgstr "Con regularidad"
+
+#: admin/class-evergreen_content_poster-configurator.php:919
+#: admin/class-evergreen_content_poster-settings.php:2928
+msgid "Often"
+msgstr "Con frecuencia"
+
+#: admin/class-evergreen_content_poster-configurator.php:926
+#: admin/class-evergreen_content_poster-configurator.php:934
+#: admin/class-evergreen_content_poster-settings.php:2936
+#: admin/class-evergreen_content_poster-settings.php:2943
+msgid "Custom"
+msgstr "Personalizado"
+
+#: admin/class-evergreen_content_poster-configurator.php:927
+#: admin/class-evergreen_content_poster-configurator.php:935
+msgid ""
+"You're now using a custom schedule. You can also replace it with one of our "
+"presets from above, based on best practices."
+msgstr ""
+"Ahora estás usando un calendario personalizado También puede sustituirlo por "
+"uno de nuestros preajustes de arriba basados en las mejores prácticas."
+
+#: admin/class-evergreen_content_poster-configurator.php:927
+#: admin/class-evergreen_content_poster-configurator.php:935
+msgid ""
+"Keep in mind that the preset will take the place of your current schedule if "
+"you do."
+msgstr ""
+"Ten en cuenta que, si lo haces, el preajuste reemplazará a tu calendario "
+"actual."
+
+#: admin/class-evergreen_content_poster-configurator.php:950
+#: admin/class-evergreen_content_poster-settings.php:2956
+msgid "Every Day"
+msgstr "Cada día"
+
+#: admin/class-evergreen_content_poster-configurator.php:1023
+#: admin/class-evergreen_content_poster-settings.php:3029
+msgid "Select Social Network"
+msgstr "Seleccionar la red social"
+
+#: admin/class-evergreen_content_poster-configurator.php:1027
+#: admin/class-evergreen_content_poster-configurator.php:1030
+#: admin/class-evergreen_content_poster-settings.php:3034
+#: admin/class-evergreen_content_poster-settings.php:3037
+msgid "All networks"
+msgstr "Todas las redes"
+
+#: admin/class-evergreen_content_poster-configurator.php:1077
+#: admin/class-evergreen_content_poster-settings.php:3085
+msgid "Select Category"
+msgstr "Seleccionar categoría"
+
+#: admin/class-evergreen_content_poster-configurator.php:1102
+#: admin/class-evergreen_content_poster-configurator.php:1105
+#: admin/class-evergreen_content_poster-configurator.php:1289
+#: admin/class-evergreen_content_poster-configurator.php:1338
+#: admin/class-evergreen_content_poster-content-library.php:1281
+#: admin/class-evergreen_content_poster-settings.php:466
+#: admin/class-evergreen_content_poster-settings.php:518
+#: admin/class-evergreen_content_poster-settings.php:1556
+#: admin/class-evergreen_content_poster-settings.php:1609
+#: admin/class-evergreen_content_poster-settings.php:1661
+#: admin/class-evergreen_content_poster-settings.php:1803
+#: admin/class-evergreen_content_poster-settings.php:1933
+#: admin/class-evergreen_content_poster-settings.php:1999
+#: admin/class-evergreen_content_poster-settings.php:2191
+#: admin/class-evergreen_content_poster-settings.php:3109
+#: admin/class-evergreen_content_poster-settings.php:3112
+#: admin/class-evergreen_content_poster-settings.php:3298
+#: admin/class-evergreen_content_poster-settings.php:3351
+msgid "Random category"
+msgstr "Categoría aleatoria"
+
+#: admin/class-evergreen_content_poster-configurator.php:1120
+#: admin/class-evergreen_content_poster-settings.php:3125
+msgid "Add Posting Time"
+msgstr "Añadir hora de publicación"
+
+#: admin/class-evergreen_content_poster-configurator.php:1210
+#: admin/class-evergreen_content_poster-settings.php:3216
+msgid "Clear Schedule"
+msgstr "Vaciar calendario"
+
+#: admin/class-evergreen_content_poster-configurator.php:1212
+#: admin/class-evergreen_content_poster-settings.php:3218
+msgid ""
+"At the moment the following categories are inactive and content of these "
+"categories will not be posted to your social media channels:"
+msgstr ""
+"En este momento, las siguientes categorías están inactivas y el contenido de "
+"estas categorías no se publicará en tus canales de medios sociales:"
+
+#: admin/class-evergreen_content_poster-configurator.php:1222
+#: admin/class-evergreen_content_poster-settings.php:3230
+msgid "Are you sure you want to clear your entire posting schedule?"
+msgstr "¿Estás seguro de que quieres vaciar todo tu calendario de publicación?"
+
+#: admin/class-evergreen_content_poster-configurator.php:1224
+#: admin/class-evergreen_content_poster-configurator.php:1900
+#: admin/class-evergreen_content_poster-configurator.php:2290
+#: admin/class-evergreen_content_poster-content-library.php:2247
+#: admin/class-evergreen_content_poster-content-library.php:2265
+msgid "Ok"
+msgstr "De acuerdo"
+
+#: admin/class-evergreen_content_poster-configurator.php:1310
+#: admin/class-evergreen_content_poster-configurator.php:1358
+#: admin/class-evergreen_content_poster-settings.php:487
+#: admin/class-evergreen_content_poster-settings.php:537
+#: admin/class-evergreen_content_poster-settings.php:1577
+#: admin/class-evergreen_content_poster-settings.php:1627
+#: admin/class-evergreen_content_poster-settings.php:1771
+#: admin/class-evergreen_content_poster-settings.php:1824
+#: admin/class-evergreen_content_poster-settings.php:1953
+#: admin/class-evergreen_content_poster-settings.php:2019
+#: admin/class-evergreen_content_poster-settings.php:3321
+#: admin/class-evergreen_content_poster-settings.php:3375
+msgid ""
+"There is no schedule at the moment, please use the form above to create your "
+"schedule."
+msgstr ""
+"No hay calendario en este momento. Por favor, usa el formulario de arriba "
+"para crear tu calendario."
+
+#: admin/class-evergreen_content_poster-configurator.php:1390
+#: admin/class-evergreen_content_poster-content-library.php:1016
+msgid "category"
+msgstr "categoría"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#: admin/class-evergreen_content_poster-configurator.php:1420
+#: admin/class-evergreen_content_poster-content-library.php:1085
+#, php-format
+msgid "Adding message to your %s"
+msgstr "Añadiendo el mensaje a tu %s"
+
+#. translators: %s is the name of a social network e.g. Facebook
+#. translators: %s is the name of a social network e.g. Facebook Page
+#: admin/class-evergreen_content_poster-configurator.php:1425
+#: admin/class-evergreen_content_poster-content-library.php:1090
+#, php-format
+msgid "Successfully added message to your %s"
+msgstr "Mensaje añadido correctamente a tu %s"
+
+#: admin/class-evergreen_content_poster-configurator.php:1430
+#: admin/class-evergreen_content_poster-configurator.php:2294
+#: admin/class-evergreen_content_poster-settings.php:2358
+#: admin/class-evergreen_content_poster-settings.php:3516
+msgid ""
+"Do you want to use your current schedule as a basis to build your own "
+"schedule?"
+msgstr ""
+"¿Quieres utilizar tu calendario actual como base para construir tu propio "
+"calendario?"
+
+#: admin/class-evergreen_content_poster-configurator.php:1431
+msgid "Create your first post"
+msgstr "Crea tu primera entrada"
+
+#: admin/class-evergreen_content_poster-configurator.php:1433
+msgid ""
+"Almost there, this will be the final step to start posting your content, "
+"followed by two quick steps where we would like to get to know you a little "
+"bit better."
+msgstr ""
+"Ya casi está, este será el último paso para empezar a publicar tu contenido. "
+"Está seguido de dos pasos rápidos con los que nos gustaría conocerte un poco "
+"mejor."
+
+#: admin/class-evergreen_content_poster-configurator.php:1434
+msgid ""
+"In this step you will learn the two ways you can add a post into one of your "
+"content posting categories."
+msgstr ""
+"En este paso, aprenderás las dos formas en las que puedes añadir una entrada "
+"a una de tus categorías de publicación de contenidos."
+
+#: admin/class-evergreen_content_poster-configurator.php:1435
+msgid ""
+"The first one will be via the block underneath each post/page/custom post "
+"type in your WordPress backend. Adding content like this, ties the post "
+"directly to that piece of content in your WordPress installation, and the "
+"URL of that piece of content will be automatically added as a result."
+msgstr ""
+"La primera será a través del bloque que se encuentra debajo de cada entrada/"
+"página/tipo de contenido personalizado en el escritorio de tu WordPress. Al "
+"añadir contenido de esta forma, se vincula la entrada directamente a ese "
+"contenido en tu instalación de WordPress y, como resultado, la URL de ese "
+"contenido se añadirá automáticamente."
+
+#: admin/class-evergreen_content_poster-configurator.php:1436
+msgid ""
+"The second way to add content to your evergreen content library, is by "
+"adding posts from the library screen. By adding posts like this, you can add "
+"freeform posts that isn't directly linked to your WordPress website and you "
+"can insert a URL manually. This is great if you want to keep on sharing your "
+"YouTube video's for example, or if you want to share inspirational quotes or "
+"engaging questions with your audience."
+msgstr ""
+"La segunda forma de añadir contenido a tu biblioteca de contenido "
+"«evergreen» es añadir entradas desde la pantalla de la biblioteca. Al añadir "
+"entradas así, puedes añadir entradas de forma libre que no estén "
+"directamente enlazadas a tu web de WordPress y puedes insertar una URL "
+"manualmente. Esto es genial si, por ejemplo, quieres seguir compartiendo tus "
+"vídeos de YouTube o si quieres compartir citas inspiradoras o preguntas "
+"interesantes con tu público."
+
+#: admin/class-evergreen_content_poster-configurator.php:1437
+msgid ""
+"Let's start by adding posts to share your evergreen content from this "
+"WordPress installation."
+msgstr ""
+"Empecemos por añadir entradas para compartir tu contenido «evergreen» desde "
+"esta instalación de WordPress."
+
+#: admin/class-evergreen_content_poster-configurator.php:1438
+msgid ""
+"This is a list of your five most recent WordPress posts, choose one and "
+"click on \"add evergreen content\"."
+msgstr ""
+"Esto es una lista de tus cinco entradas más recientes de WordPress. Elige "
+"una y haz clic en «añadir contenido \"evergreen\"»."
+
+#. translators: %1s is the date and the name of the author
+#: admin/class-evergreen_content_poster-configurator.php:1461
+#, php-format
+msgid "Published on %1s by %2s"
+msgstr "Publicado el %1s por %2s"
+
+#: admin/class-evergreen_content_poster-configurator.php:1470
+msgid "add evergreen content"
+msgstr "añadir contenido «evergreen»"
+
+#: admin/class-evergreen_content_poster-configurator.php:1476
+msgid "Your post:"
+msgstr "Tu entrada:"
+
+#: admin/class-evergreen_content_poster-configurator.php:2047
+msgid "Optional step 5: Getting to know your business"
+msgstr "Paso opcional 5: conocer tu negocio"
+
+#: admin/class-evergreen_content_poster-configurator.php:2048
+msgid ""
+"This step is optional and if you want you can skip and go straight to the "
+"next step, but we would like to get to know you a little bit better."
+msgstr ""
+"Este paso es opcional y, si quieres, puedes saltártelo y pasar directamente "
+"al siguiente paso. No obstante, nos gustaría conocerte un poco mejor."
+
+#: admin/class-evergreen_content_poster-configurator.php:2049
+msgid ""
+"By better knowing what types of people or what type of businesses use the "
+"Evergreen Content Poster, we can better tailor the plugin to help solve your "
+"needs."
+msgstr ""
+"Al conocer mejor qué tipo de personas o de negocios usan Evergreen Content "
+"Poster, podemos adaptar mejor el plugin para que te ayude a satisfacer tus "
+"necesidades."
+
+#: admin/class-evergreen_content_poster-configurator.php:2051
+#: admin/class-evergreen_content_poster-configurator.php:2081
+msgid "What type of entrepreneur are you?"
+msgstr "¿Qué tipo de emprendedor eres?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2052
+msgid "What kind of small & medium business do you have or do you work at?"
+msgstr ""
+"¿Qué tipo de pequeña o mediana empresa tienes o en qué tipo de empresa "
+"trabajas?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2053
+msgid "What kind of agency do you have or do you work at?"
+msgstr "¿Qué tipo de agencia tienes o en qué tipo de agencia trabajas?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2055
+msgid "Can you tell us which type of business best represents you?"
+msgstr "¿Puedes contarnos qué tipo de negocio te representa mejor?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2059
+msgid "Solopreneur"
+msgstr "«Solopreneur»"
+
+#: admin/class-evergreen_content_poster-configurator.php:2066
+msgid "Small & Medium Business"
+msgstr "Pequeña y mediana empresa"
+
+#: admin/class-evergreen_content_poster-configurator.php:2073
+msgid "Agency"
+msgstr "Agencia"
+
+#: admin/class-evergreen_content_poster-configurator.php:2085
+msgid "Freelancer"
+msgstr "Autónomo"
+
+#: admin/class-evergreen_content_poster-configurator.php:2088
+msgid "Author or speaker"
+msgstr "Autor o locutor"
+
+#: admin/class-evergreen_content_poster-configurator.php:2091
+msgid "Coach"
+msgstr "Entrenador"
+
+#: admin/class-evergreen_content_poster-configurator.php:2094
+msgid "Blogger"
+msgstr "Bloguero"
+
+#: admin/class-evergreen_content_poster-configurator.php:2097
+msgid "Other (Solopreneur)"
+msgstr "Otro («solopreneur»)"
+
+#: admin/class-evergreen_content_poster-configurator.php:2103
+msgid "eCommerce"
+msgstr "Comercio electrónico"
+
+#: admin/class-evergreen_content_poster-configurator.php:2106
+msgid "Startup / Small Business"
+msgstr "Empresa emergente / Pequeña empresa"
+
+#: admin/class-evergreen_content_poster-configurator.php:2109
+msgid "Medium Business"
+msgstr "Mediana empresa"
+
+#: admin/class-evergreen_content_poster-configurator.php:2112
+msgid "Corporate"
+msgstr "Corporativo"
+
+#: admin/class-evergreen_content_poster-configurator.php:2115
+msgid "Other (SMB)"
+msgstr "Otro (pequeña y mediana empresa)"
+
+#: admin/class-evergreen_content_poster-configurator.php:2121
+msgid "Freelance Marketer"
+msgstr "Especialista en «marketing» autónomo"
+
+#: admin/class-evergreen_content_poster-configurator.php:2124
+msgid "Marketing Agency"
+msgstr "Agencia de «marketing»"
+
+#: admin/class-evergreen_content_poster-configurator.php:2127
+msgid "Social Media Marketing Agency"
+msgstr "Agencia de «marketing» en medios sociales"
+
+#: admin/class-evergreen_content_poster-configurator.php:2130
+msgid "Web & Design agency"
+msgstr "Agencia de diseño web"
+
+#: admin/class-evergreen_content_poster-configurator.php:2133
+msgid "Other (Agency)"
+msgstr "Otro (agencia)"
+
+#: admin/class-evergreen_content_poster-configurator.php:2143
+msgid "And finally, in what industry are you working?"
+msgstr "Y, por último, ¿en qué industria trabajas?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2147
+msgid "Agriculture"
+msgstr "Agricultura"
+
+#: admin/class-evergreen_content_poster-configurator.php:2148
+msgid "AI &amp; Machine"
+msgstr "IA y aprendizaje automático"
+
+#: admin/class-evergreen_content_poster-configurator.php:2149
+msgid "Architecture"
+msgstr "Arquitectura"
+
+#: admin/class-evergreen_content_poster-configurator.php:2150
+msgid "Arts &amp; Crafts"
+msgstr "Artes y oficios"
+
+#: admin/class-evergreen_content_poster-configurator.php:2151
+msgid "Automotive"
+msgstr "Automoción"
+
+#: admin/class-evergreen_content_poster-configurator.php:2152
+msgid "Beauty/Fashion"
+msgstr "Belleza/Moda"
+
+#: admin/class-evergreen_content_poster-configurator.php:2153
+msgid "Civil &amp; Social Organization"
+msgstr "Organización civil y social"
+
+#: admin/class-evergreen_content_poster-configurator.php:2154
+msgid "Cleaning"
+msgstr "Limpieza"
+
+#: admin/class-evergreen_content_poster-configurator.php:2155
+msgid "Construction"
+msgstr "Construcción"
+
+#: admin/class-evergreen_content_poster-configurator.php:2156
+msgid "Cryptocurrency"
+msgstr "Criptomonedas"
+
+#: admin/class-evergreen_content_poster-configurator.php:2157
+msgid "Customer Services"
+msgstr "Atención al cliente"
+
+#: admin/class-evergreen_content_poster-configurator.php:2158
+msgid "Design"
+msgstr "Diseño"
+
+#: admin/class-evergreen_content_poster-configurator.php:2159
+msgid "Education"
+msgstr "Educación"
+
+#: admin/class-evergreen_content_poster-configurator.php:2160
+msgid "Electronics"
+msgstr "Electrónica"
+
+#: admin/class-evergreen_content_poster-configurator.php:2161
+msgid "Engineering"
+msgstr "Ingeniería"
+
+#: admin/class-evergreen_content_poster-configurator.php:2162
+msgid "Entertainment"
+msgstr "Entretenimiento"
+
+#: admin/class-evergreen_content_poster-configurator.php:2163
+msgid "Entrepreneurship"
+msgstr "Emprendimiento"
+
+#: admin/class-evergreen_content_poster-configurator.php:2164
+msgid "Events Services"
+msgstr "Servicios para eventos"
+
+#: admin/class-evergreen_content_poster-configurator.php:2165
+msgid "Financial"
+msgstr "Finanzas"
+
+#: admin/class-evergreen_content_poster-configurator.php:2166
+msgid "Fitness and sports"
+msgstr "«Fitness» y deporte"
+
+#: admin/class-evergreen_content_poster-configurator.php:2167
+msgid "Food &amp; Beverages"
+msgstr "Alimentos y bebidas"
+
+#: admin/class-evergreen_content_poster-configurator.php:2168
+msgid "Fund-Raising"
+msgstr "Recaudación de fondos"
+
+#: admin/class-evergreen_content_poster-configurator.php:2169
+msgid "Gaming"
+msgstr "Videojuegos"
+
+#: admin/class-evergreen_content_poster-configurator.php:2170
+msgid "Health, Wellness and Fitness"
+msgstr "Salud, bienestar y «fitness»"
+
+#: admin/class-evergreen_content_poster-configurator.php:2171
+msgid "Hospitality"
+msgstr "Industria hotelera"
+
+#: admin/class-evergreen_content_poster-configurator.php:2172
+msgid "Human Resources"
+msgstr "Recursos humanos"
+
+#: admin/class-evergreen_content_poster-configurator.php:2173
+msgid "Insurance"
+msgstr "Seguros"
+
+#: admin/class-evergreen_content_poster-configurator.php:2174
+msgid "IT Services"
+msgstr "Servicios informáticos"
+
+#: admin/class-evergreen_content_poster-configurator.php:2175
+msgid "Law"
+msgstr "Derecho"
+
+#: admin/class-evergreen_content_poster-configurator.php:2176
+msgid "Learning"
+msgstr "Aprendizaje"
+
+#: admin/class-evergreen_content_poster-configurator.php:2177
+msgid "Manufacturing"
+msgstr "Fabricación"
+
+#: admin/class-evergreen_content_poster-configurator.php:2178
+msgid "Marketing &amp; Advertising"
+msgstr "«Marketing» y publicidad"
+
+#: admin/class-evergreen_content_poster-configurator.php:2179
+msgid "Military"
+msgstr "Fuerzas armadas"
+
+#: admin/class-evergreen_content_poster-configurator.php:2180
+msgid "Music"
+msgstr "Música"
+
+#: admin/class-evergreen_content_poster-configurator.php:2181
+msgid "News Media"
+msgstr "Medios de información"
+
+#: admin/class-evergreen_content_poster-configurator.php:2182
+msgid "Oil &amp; Energy"
+msgstr "Petróleo y energía"
+
+#: admin/class-evergreen_content_poster-configurator.php:2183
+#: evergreen_content_poster.php:574
+msgid "Other"
+msgstr "Otros"
+
+#: admin/class-evergreen_content_poster-configurator.php:2184
+msgid "Pharmaceutical"
+msgstr "Farmacéutica"
+
+#: admin/class-evergreen_content_poster-configurator.php:2185
+msgid "Photography"
+msgstr "Fotografía"
+
+#: admin/class-evergreen_content_poster-configurator.php:2186
+msgid "Political Organization"
+msgstr "Organización política"
+
+#: admin/class-evergreen_content_poster-configurator.php:2187
+msgid "Real Estate"
+msgstr "Inmobiliaria"
+
+#: admin/class-evergreen_content_poster-configurator.php:2188
+msgid "Recruiting"
+msgstr "Contratación"
+
+#: admin/class-evergreen_content_poster-configurator.php:2189
+msgid "Religious"
+msgstr "Religión"
+
+#: admin/class-evergreen_content_poster-configurator.php:2190
+msgid "Retail"
+msgstr "Venta al por menor"
+
+#: admin/class-evergreen_content_poster-configurator.php:2191
+msgid "Sport"
+msgstr "Deporte"
+
+#: admin/class-evergreen_content_poster-configurator.php:2192
+msgid "Technology"
+msgstr "Tecnología"
+
+#: admin/class-evergreen_content_poster-configurator.php:2193
+msgid "Telecommunication"
+msgstr "Telecomunicaciones"
+
+#: admin/class-evergreen_content_poster-configurator.php:2194
+msgid "Tobacco"
+msgstr "Tabaco"
+
+#: admin/class-evergreen_content_poster-configurator.php:2195
+msgid "Transport"
+msgstr "Transporte"
+
+#: admin/class-evergreen_content_poster-configurator.php:2196
+msgid "Traveling"
+msgstr "Viajes"
+
+#: admin/class-evergreen_content_poster-configurator.php:2197
+msgid "Veterinary"
+msgstr "Veterinaria"
+
+#: admin/class-evergreen_content_poster-configurator.php:2198
+msgid "Writing &amp; Editing"
+msgstr "Redacción y edición"
+
+#: admin/class-evergreen_content_poster-configurator.php:2219
+msgid "Optional step 6: Subscribe to our newsletter"
+msgstr "Paso opcional : suscríbete a nuestro boletín"
+
+#: admin/class-evergreen_content_poster-configurator.php:2220
+msgid ""
+"Sign up for our newsletter if you would like to keep up-to-date about the "
+"Evergreen Content Poster, and interesting news and tips from the world of "
+"growing your business."
+msgstr ""
+"Suscríbete a nuestro boletín si quieres estar al día acerca de Evergreen "
+"Content Poster y de noticias y consejos interesantes del mundo del "
+"desarrollo de tu negocio."
+
+#: admin/class-evergreen_content_poster-configurator.php:2224
+msgid "Your best email address"
+msgstr "Tu mejor dirección de correo electrónico"
+
+#: admin/class-evergreen_content_poster-configurator.php:2229
+msgid "Email address is not valid"
+msgstr "La dirección de correo electrónico no es válida"
+
+#: admin/class-evergreen_content_poster-configurator.php:2230
+#: admin/class-evergreen_content_poster-configurator.php:2237
+msgid ""
+"Almost finished... We need to confirm your email address. To complete the "
+"subscription process, please click the link in the email we just sent you."
+msgstr ""
+"Ya casi terminamos… Necesitamos confirmar tu dirección de correo "
+"electrónico. Para completar el proceso de suscripción, por favor, haz clic "
+"en el enlace que hay en el correo electrónico que acabamos de enviarte."
+
+#: admin/class-evergreen_content_poster-configurator.php:2233
+msgid "sign me up!"
+msgstr "¡inscríbeme!"
+
+#. translators: %1$s is a link start tag our Privacy Policy, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-configurator.php:2242
+#, php-format
+msgid ""
+"We respect your privacy. Read our %1sprivacy policy%2s on how we handle your "
+"personal information."
+msgstr ""
+"Respetamos tu privacidad. Lee nuestra %1spolítica de privacidad%2s sobre "
+"cómo gestionamos tu información personal."
+
+#: admin/class-evergreen_content_poster-configurator.php:2258
+msgid "That's it you made it through the onboarding!"
+msgstr "Ya está, ¡has superado la fase de puesta en marcha!"
+
+#: admin/class-evergreen_content_poster-configurator.php:2263
+msgid ""
+"Woohoo! You're ready to start sharing your evergreen content via social "
+"media."
+msgstr ""
+"¡Yuujuu! Ya estás listo para empezar a compartir tu contenido «evergreen» a "
+"través de los medios sociales."
+
+#: admin/class-evergreen_content_poster-configurator.php:2264
+msgid ""
+"Now don't forget to go through your back catalogue to create social media "
+"posts for all your evergreen content, or maybe create a library of posts for "
+"your YouTube videos or inspirational quotes for your followers."
+msgstr ""
+"Ahora, no te olvides de repasar tu catálogo anterior para crear entradas en "
+"los medios sociales para todo tu contenido «evergreen» o, quizás, crear una "
+"biblioteca de entradas para tus vídeos de YouTube o citas inspiradoras para "
+"tus seguidores."
+
+#: admin/class-evergreen_content_poster-configurator.php:2265
+msgid "The possibilities are almost endless."
+msgstr "Las posibilidades son casi infinitas."
+
+#: admin/class-evergreen_content_poster-configurator.php:2268
+msgid "Do you still feel stuck and want a personal demo?"
+msgstr "¿Aún te ves atascado y quieres una demostración personal?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2269
+msgid ""
+"We'll talk more about how this plugin can help you grow your traffic via "
+"social media, answer any questions you may have, help you get unstuck or "
+"maybe you just want to have a small chat?"
+msgstr ""
+"Hablaremos más acerca de cómo este plugin te puede ayudar a aumentar tu "
+"tráfico mediante los medios sociales, responderemos a cualquier pregunta que "
+"tengas, te ayudaremos a desatascarte o quizás, ¿solo quieras tener una "
+"pequeña charla?"
+
+#: admin/class-evergreen_content_poster-configurator.php:2274
+msgid "close"
+msgstr "cerrar"
+
+#: admin/class-evergreen_content_poster-configurator.php:2289
+#: admin/class-evergreen_content_poster-settings.php:3511
+msgid "Are you sure you want to delete this timeslot?"
+msgstr "¿Estás seguro de que quieres borrar este intervalo de tiempo?"
+
+#: admin/class-evergreen_content_poster-content-library.php:454
+msgid "Category name already exists"
+msgstr "El nombre de la categoría ya existe"
+
+#: admin/class-evergreen_content_poster-content-library.php:889
+msgid "No posts were found in this category"
+msgstr "No se encontraron entradas en esta categoría"
+
+#: admin/class-evergreen_content_poster-content-library.php:891
+msgid "No results were found, while searching \""
+msgstr "No se encontraron resultados al buscar «"
+
+#: admin/class-evergreen_content_poster-content-library.php:939
+msgid "Error: Update post error"
+msgstr "Error: error en la actualización de la entrada"
+
+#: admin/class-evergreen_content_poster-content-library.php:1023
+msgid "Category set to active"
+msgstr "Categoría establecida como activa"
+
+#: admin/class-evergreen_content_poster-content-library.php:1024
+msgid "Category set to inactive"
+msgstr "Categoría establecida como inactiva"
+
+#: admin/class-evergreen_content_poster-content-library.php:1026
+msgid "Category will be used when random category is selected in your schedule"
+msgstr ""
+"La categoría se utilizará cuando se seleccione categoría aleatoria en tu "
+"calendario"
+
+#: admin/class-evergreen_content_poster-content-library.php:1027
+msgid ""
+"Category won't be used when random category is selected in your schedule"
+msgstr ""
+"La categoría no se utilizará cuando se seleccione categoría aleatoria en tu "
+"calendario"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1033
+#, php-format
+msgid "Deleting all posts from category %s and deleting category %s"
+msgstr ""
+"Borrando todas las entradas de la categoría %s y borrando la categoría %s"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1039
+#, php-format
+msgid "Successfully deleted all posts from category %s and category %s"
+msgstr ""
+"Todas las entradas de la categoría %s y la categoría %s se han borrado "
+"correctamente"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1045
+#, php-format
+msgid "Moving all posts to the default category and deleting category %s"
+msgstr ""
+"Moviendo todas las entradas de la categoría por defecto y borrando la "
+"categoría %s"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1050
+#, php-format
+msgid "Successfully moved all posts and deleted category %s"
+msgstr ""
+"Todas las entradas se han movido y la categoría %s se ha borrado "
+"correctamente"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1065
+#, php-format
+msgid "Creating category %s"
+msgstr "Creando la categoría %s"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:1070
+#, php-format
+msgid "Successfully created category %s"
+msgstr "La categoría %s se ha creado correctamente"
+
+#: admin/class-evergreen_content_poster-content-library.php:1114
+#: admin/class-evergreen_content_poster-settings.php:2415
+msgid "The WordPress Cron seems to be disabled"
+msgstr "Parece que el Cron de WordPress está desactivado"
+
+#. translators: %1s is a link start tag to an FAQ article to help troubleshoot the cron issue, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-content-library.php:1117
+#: admin/class-evergreen_content_poster-settings.php:2418
+#, php-format
+msgid ""
+"The WordPress Cron seems to be disabled on your website. This can cause "
+"sharing issues with the Evergreen Content Poster. If sharing is not working, "
+"then see %1shere for a potential solution.%2s"
+msgstr ""
+"Parece que el Cron de WordPress está desactivado en tu web. Esto puede "
+"causar problemas al compartir con Evergreen Content Poster. Si compartir no "
+"funciona, entonces, ve %1saquí para obtener una posible solución.%2s"
+
+#: admin/class-evergreen_content_poster-content-library.php:1132
+msgid "Your Content Library Categories"
+msgstr "Tus categorías de la biblioteca de contenido"
+
+#: admin/class-evergreen_content_poster-content-library.php:1138
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: admin/class-evergreen_content_poster-content-library.php:1151
+msgid "Added to Library (recent first)"
+msgstr "Añadido a la biblioteca (el más reciente primero)"
+
+#: admin/class-evergreen_content_poster-content-library.php:1152
+msgid "Added to Library (oldest first)"
+msgstr "Añadido a la biblioteca (el más antiguo primero)"
+
+#: admin/class-evergreen_content_poster-content-library.php:1153
+msgid "Posting time (recent first)"
+msgstr "Hora de publicación (el más reciente primero)"
+
+#: admin/class-evergreen_content_poster-content-library.php:1154
+#: admin/class-evergreen_content_poster-settings.php:2551
+msgid "Posting time (oldest first)"
+msgstr "Hora de publicación (el más antiguo primero)"
+
+#: admin/class-evergreen_content_poster-content-library.php:1159
+msgid "Search"
+msgstr "Buscar"
+
+#: admin/class-evergreen_content_poster-content-library.php:1170
+msgid "Connect your social profiles"
+msgstr "Conectado a los perfiles sociales"
+
+#: admin/class-evergreen_content_poster-content-library.php:1218
+msgid "Enter category name"
+msgstr "Introducir nombre de categoría"
+
+#. translators: %1$s is anchor tag to open the edit categories part, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-content-library.php:1255
+#, php-format
+msgid "Click %1shere%2s to edit your existing categories."
+msgstr "Haz clic %1saquí%2s para editar tus categorías existentes."
+
+#. translators: %1$s is anchor tag to open the edit categories part, %2$s is the link closing tag
+#: admin/class-evergreen_content_poster-content-library.php:1261
+#, php-format
+msgid "Click %1shere%2s to stop editing your existing categories."
+msgstr "Haz clic %1saquí%2s para dejar de editar tus categorías existentes."
+
+#: admin/class-evergreen_content_poster-content-library.php:1271
+msgid ""
+"This table shows your (active) categories, and how many posts each category "
+"has. If you want you can edit the category name, empty the category, or "
+"delete the category."
+msgstr ""
+"Esta tabla muestra tus categorías (activas) y cuántas entradas tiene cada "
+"categoría. Si quieres, puedes editar el nombre de la categoría, vaciar la "
+"categoría o borrar la categoría."
+
+#: admin/class-evergreen_content_poster-content-library.php:1272
+msgid ""
+"By making a category inactive, the scheduler stops sharing posts from that "
+"particular category."
+msgstr ""
+"Al hacer que una categoría esté inactiva, el programador deja de compartir "
+"las entradas de esa categoría en particular."
+
+#: admin/class-evergreen_content_poster-content-library.php:1278
+msgid "Active"
+msgstr "Activa"
+
+#: admin/class-evergreen_content_poster-content-library.php:1284
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/class-evergreen_content_poster-content-library.php:1287
+msgid "# Posts"
+msgstr "# Entradas"
+
+#: admin/class-evergreen_content_poster-content-library.php:1346
+#: admin/class-evergreen_content_poster-content-library.php:1393
+msgid "post"
+msgstr "entrada"
+
+#: admin/class-evergreen_content_poster-content-library.php:1350
+#: admin/class-evergreen_content_poster-content-library.php:1397
+msgid "Edit the name of the category"
+msgstr "Editar el nombre de la categoría"
+
+#: admin/class-evergreen_content_poster-content-library.php:1353
+#: admin/class-evergreen_content_poster-content-library.php:1399
+msgid "Move all posts to the default category"
+msgstr "Mover todas las entradas a la categoría por defecto"
+
+#: admin/class-evergreen_content_poster-content-library.php:1355
+#: admin/class-evergreen_content_poster-content-library.php:1401
+msgid "Delete category and all posts"
+msgstr "Borrar categoría y todas sus entradas"
+
+#: admin/class-evergreen_content_poster-content-library.php:1507
+#: admin/class-evergreen_content_poster-content-library.php:1584
+msgid "Add Time"
+msgstr "Agregar tiempo"
+
+#: admin/class-evergreen_content_poster-content-library.php:1526
+#: admin/class-evergreen_content_poster-content-library.php:1603
+msgid "Time"
+msgstr "Hora"
+
+#: admin/class-evergreen_content_poster-content-library.php:1529
+#: admin/class-evergreen_content_poster-content-library.php:1606
+msgid "Select start and end time"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-content-library.php:1861
+msgid "Your Evergreen Content Library"
+msgstr "Tu biblioteca de contenido «evergreen»"
+
+#: admin/class-evergreen_content_poster-content-library.php:2102
+#: admin/class-evergreen_content_poster-content-library.php:2112
+msgid "There is nothing added to your library yet."
+msgstr "Todavía no hay nada añadido a tu biblioteca."
+
+#. translators: %1$s is a link start tag to the posts page, %2$s is the link closing tag, %3s is a link start tag to the pages page, %4s is the link closing tag
+#: admin/class-evergreen_content_poster-content-library.php:2114
+#, php-format
+msgid ""
+"You can add items using the form underneath each %1spost%2s or %3spage%4s."
+msgstr ""
+"Puedes añadir elementos usando el formulario que hay debajo de cada "
+"%1sentrada%2s o %3spágina%4s."
+
+#: admin/class-evergreen_content_poster-content-library.php:2131
+#: admin/class-evergreen_content_poster-settings.php:3403
+msgid "Love the Plugin?"
+msgstr "¿Te gusta el plugin?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2132
+#: admin/class-evergreen_content_poster-settings.php:3405
+msgid "How about rating us?"
+msgstr "¿Qué tal si nos das una valoración?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2141
+#: admin/class-evergreen_content_poster-settings.php:3414
+msgid ""
+"Would you mind giving us an honest review in the WordPress listings? It "
+"would mean the world to us."
+msgstr ""
+"¿Te importaría darnos una reseña honesta en los catálogos de WordPress? "
+"Significaría muchísimo para nosotros."
+
+#: admin/class-evergreen_content_poster-content-library.php:2144
+#: admin/class-evergreen_content_poster-settings.php:3417
+msgid ""
+"We're sorry you're not having a great experience. How can we help you fix "
+"that?"
+msgstr ""
+"Sentimos que no estés teniendo una gran experiencia. ¿Cómo podemos ayudarte "
+"a solucionarlo?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2145
+#: admin/class-evergreen_content_poster-settings.php:3418
+msgid ""
+"You can email us or, even better, send us a support request so we can "
+"address your needs as quickly and effectively as possible."
+msgstr ""
+"Puedes mandarnos un correo electrónico o, aún mejor, mándanos una solicitud "
+"de asistencia para que podamos atender tus necesidades de la forma más "
+"rápida y eficaz posible."
+
+#: admin/class-evergreen_content_poster-content-library.php:2146
+#: admin/class-evergreen_content_poster-settings.php:3419
+msgid "Contact Support"
+msgstr "Contactar con soporte"
+
+#: admin/class-evergreen_content_poster-content-library.php:2147
+#: admin/class-evergreen_content_poster-settings.php:3421
+msgid ""
+"If you still want to rate our plugin right now, you can do that by clicking "
+"here:"
+msgstr ""
+"Si todavía quieres valorar nuestro plugin ahora mismo, puedes hacerlo "
+"haciendo clic aquí:"
+
+#: admin/class-evergreen_content_poster-content-library.php:2147
+#: admin/class-evergreen_content_poster-settings.php:3422
+msgid "leave a review"
+msgstr "deja una reseña"
+
+#: admin/class-evergreen_content_poster-content-library.php:2148
+#: admin/class-evergreen_content_poster-settings.php:3425
+msgid "Nevermind, close this box"
+msgstr "No importa, cierra está ventana"
+
+#: admin/class-evergreen_content_poster-content-library.php:2195
+#: admin/class-evergreen_content_poster-settings.php:3474
+msgid "Have an idea?"
+msgstr "¿Tienes alguna idea?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2196
+#: admin/class-evergreen_content_poster-settings.php:3475
+msgid ""
+"Are you missing a feature? Do you know a way to make the plugin even better?"
+msgstr ""
+"¿Te falta alguna característica? ¿Conoces alguna manera de hacer que este "
+"plugin sea aún mejor?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2197
+#: admin/class-evergreen_content_poster-settings.php:3476
+msgid "Leave a comment and upvote features on our public roadmap"
+msgstr ""
+"Deja un comentario y vota positivamente a las características en nuestra "
+"hoja de ruta pública"
+
+#: admin/class-evergreen_content_poster-content-library.php:2200
+#: admin/class-evergreen_content_poster-settings.php:3477
+msgid "Share your idea"
+msgstr "Comparte tu idea"
+
+#: admin/class-evergreen_content_poster-content-library.php:2207
+#: admin/class-evergreen_content_poster-settings.php:3484
+msgid "Need Help?"
+msgstr "¿Necesitas ayuda?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2208
+#: admin/class-evergreen_content_poster-settings.php:3485
+msgid "Plugin not sharing to social media?"
+msgstr ""
+
+#. translators: %1s is a link start tag to an FAQ article to help troubleshoot the cron issue, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-content-library.php:2211
+#: admin/class-evergreen_content_poster-settings.php:3488
+#, php-format
+msgid "First have a look at %1sthis online troubleshooting guide%2s."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-content-library.php:2216
+#: admin/class-evergreen_content_poster-settings.php:3493
+msgid ""
+"Otherwise, something else not working correctly and want to contact someone "
+"on our support team?"
+msgstr ""
+"¿Hay algo que no funciona correctamente y quieres contactar con soporte?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2217
+#: admin/class-evergreen_content_poster-settings.php:3494
+msgid ""
+"Copy your System Status by clicking the button below and include this in an "
+"email to support@evergreencontentposter.com"
+msgstr ""
+"Copia el estado de tu sistema haciendo clic en el botón de abajo e inclúyelo "
+"en un correo electrónico a support@evergreencontentposter.com"
+
+#: admin/class-evergreen_content_poster-content-library.php:2218
+#: admin/class-evergreen_content_poster-settings.php:3495
+msgid ""
+"Optionally you can also include a log of the messages you successfully or "
+"unsuccessfully shared."
+msgstr ""
+"De manera opcional, también puedes incluir el registro de los mensajes que "
+"has compartido correcta o incorrectamente."
+
+#: admin/class-evergreen_content_poster-content-library.php:2219
+#: admin/class-evergreen_content_poster-settings.php:3496
+msgid "Get system status"
+msgstr "Obtener el estado del sistema"
+
+#: admin/class-evergreen_content_poster-content-library.php:2220
+#: admin/class-evergreen_content_poster-settings.php:3497
+msgid "Get sharing logfile"
+msgstr "Obtener el archivo de registro compartido"
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:2236
+#, php-format
+msgid ""
+"Do you really want to delete the category %s and move all posts to the "
+"default category?"
+msgstr ""
+"¿Realmente quieres borrar la categoría %s y mover todas las entradas a la "
+"categoría por defecto?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2240
+msgid ""
+"Deleting a category and moving the posts will trigger the following changes:"
+msgstr ""
+"Borrar una categoría y mover las entradas provocará los siguientes cambios:"
+
+#: admin/class-evergreen_content_poster-content-library.php:2243
+msgid ""
+"All posts that are in this category will be <strong>moved to the default "
+"category</strong>."
+msgstr ""
+"Todas las entradas que hay en esta categoría se <strong>moverán a la "
+"categoría por defecto</strong>."
+
+#. translators: %s is the name of the category
+#: admin/class-evergreen_content_poster-content-library.php:2254
+#, php-format
+msgid "Do you really want to delete the category %s and delete all it's posts?"
+msgstr "¿Realmente quieres borrar la categoría %s y borrar todas sus entradas?"
+
+#: admin/class-evergreen_content_poster-content-library.php:2258
+msgid ""
+"Deleting a category and deleting the posts will trigger the following "
+"changes:"
+msgstr ""
+"Borrar una categoría y borrar las entradas provocará los siguientes cambios:"
+
+#: admin/class-evergreen_content_poster-content-library.php:2261
+msgid "All posts that are in this category will be deleted"
+msgstr "Todas las entradas que hay en esta categoría se borrarán"
+
+#: admin/class-evergreen_content_poster-settings.php:936
+msgid "No eligible posts found that can be send to Buffer from any profile"
+msgstr ""
+"No se encontraron entradas elegibles que se puedan enviar a Buffer desde "
+"ningún perfil"
+
+#: admin/class-evergreen_content_poster-settings.php:1081
+msgid ""
+"The post to Buffer was successfully pushed up, please check the log to see "
+"the status"
+msgstr ""
+"La entrada para Buffer se ha subido correctamente. Por favor, comprueba el "
+"registro para ver el estado"
+
+#: admin/class-evergreen_content_poster-settings.php:2178
+#: includes/class-evergreen_content_poster-cron_scheduler.php:37
+msgid "Every One Minute"
+msgstr "Cada minuto"
+
+#: admin/class-evergreen_content_poster-settings.php:2182
+#: includes/class-evergreen_content_poster-cron_scheduler.php:41
+msgid "Every 30 Minutes"
+msgstr "Cada 30 minutos"
+
+#: admin/class-evergreen_content_poster-settings.php:2352
+msgid "Successfully added a new posting timeslot"
+msgstr "Se ha añadido correctamente un nuevo intervalo de publicación"
+
+#: admin/class-evergreen_content_poster-settings.php:2353
+msgid "There is an error trying to add this posting timeslot, please try again"
+msgstr ""
+"Hay un error al intentar añadir este intervalo de publicación. Por favor, "
+"inténtalo de nuevo"
+
+#: admin/class-evergreen_content_poster-settings.php:2354
+msgid "Successfully deleted posting timeslot"
+msgstr "El intervalo de publicación se ha borrado correctamente"
+
+#: admin/class-evergreen_content_poster-settings.php:2355
+msgid ""
+"There is an error trying to delete this posting timeslot, please try again"
+msgstr ""
+"Hay un error al intentar borrar este intervalo de publicación. Por favor, "
+"inténtalo de nuevo"
+
+#: admin/class-evergreen_content_poster-settings.php:2356
+msgid "Successfully cleared posting timeslot"
+msgstr "El intervalo de publicación se ha vaciado correctamente"
+
+#: admin/class-evergreen_content_poster-settings.php:2357
+msgid ""
+"There is an error trying to clear this posting timeslot, please try again"
+msgstr ""
+"Hay un error al intentar vaciar este intervalo de publicación. Por favor, "
+"inténtalo de nuevo"
+
+#: admin/class-evergreen_content_poster-settings.php:2362
+msgid "Post to Buffer"
+msgstr "Publicar en Buffer"
+
+#. translators: %1s is a link start tag to an FAQ article to help troubleshoot the cron issue, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-settings.php:2395
+#, php-format
+msgid ""
+"Before the Evergreen Content Poster can start to share your social media "
+"posts we first need to have a connection with your social media profiles."
+"%1sClick %2shere to start connecting your social media profiles to the "
+"plugin.%3s"
+msgstr ""
+"Antes de que Evergreen Content Poster pueda comenzar a compartir tus "
+"entradas en los medios sociales, necesitamos tener una conexión con tus "
+"perfiles en los medios sociales.%1sHaz clic%2s aquí para comenzar a conectar "
+"tus perfiles de los medios sociales con el plugin.%3s"
+
+#: admin/class-evergreen_content_poster-settings.php:2448
+msgid "Let's improve the Evergreen Content Poster"
+msgstr "Vamos a mejorar Evergreen Content Poster"
+
+#. translators: %s is full name of the local Language
+#: admin/class-evergreen_content_poster-settings.php:2451
+#, php-format
+msgid ""
+"Translating the <strong>Evergreen Content Poster</strong> into as many "
+"languages as possible is a huge project. We still need help with a lot of "
+"them, so if you are good at translating into <strong>%s</strong>, any help "
+"would be greatly appreciated. The process is easy, and you can join by "
+"following the link below!"
+msgstr ""
+"Traducir <strong>Evergreen Content Poster</strong> al mayor número de "
+"idiomas posibles es un proyecto inmenso. Todavía necesitamos ayuda con "
+"muchos de ellos. Así que si eres bueno traduciendo al <strong>%s</strong>, "
+"agradeceremos cualquier ayuda. ¡El proceso es fácil y puedes unirte si "
+"sigues el siguiente enlace!"
+
+#: admin/class-evergreen_content_poster-settings.php:2454
+msgid "Sure, I would gladly help translating!"
+msgstr "¡Claro, estaré encantado de ayudaros a traducir!"
+
+#: admin/class-evergreen_content_poster-settings.php:2455
+msgid "No, thanks."
+msgstr "No, gracias."
+
+#: admin/class-evergreen_content_poster-settings.php:2475
+msgid "Evergreen Content Poster configured"
+msgstr "Evergreen Content Poster configurado"
+
+#. translators: %1s is a link start tag to the Onboarding Wizard, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-settings.php:2478
+#, php-format
+msgid ""
+"If you want to double-check your Evergreen Content Poster settings, or "
+"change something quickly, you can always %1sreopen the configuration wizard!"
+"%2s"
+msgstr ""
+"Si quieres volver a comprobar los ajustes de tu Evergreen Content Poster o "
+"cambiar algo rápidamente, ¡siempre puedes %1svolver a abrir el asistente de "
+"configuración!%2s"
+
+#: admin/class-evergreen_content_poster-settings.php:2487
+msgid "First-time Evergreen Content Poster configuration"
+msgstr "Primera configuración de Evergreen Content Poster"
+
+#. translators: %1s is a link start tag to the Onboarding Wizard, %2s is the link closing tag.
+#: admin/class-evergreen_content_poster-settings.php:2490
+#, php-format
+msgid ""
+"Get started quickly with the Evergreen Content Poster %1sconfiguration "
+"wizard!%2s"
+msgstr ""
+"¡Da los primeros pasos rápidamente con el %1sasistente de configuración%2s "
+"de Evergreen Content Poster!"
+
+#: admin/class-evergreen_content_poster-settings.php:2504
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: admin/class-evergreen_content_poster-settings.php:2509
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: admin/class-evergreen_content_poster-settings.php:2510
+msgid ""
+"By default we use the timezone settings of your WordPress installation, if "
+"you want to change this adapt your timezone settings here."
+msgstr ""
+"Por defecto, usamos los ajustes de zona horaria de tu instalación de "
+"WordPrees. Si quieres cambiarla, adapta tus ajustes de zona horaria aquí."
+
+#: admin/class-evergreen_content_poster-settings.php:2522
+msgid "Add Posts to the Top/Bottom of the library"
+msgstr "Añade entradas al comienzo/final de la cola"
+
+#: admin/class-evergreen_content_poster-settings.php:2527
+msgid "Top"
+msgstr "Comienzo"
+
+#: admin/class-evergreen_content_poster-settings.php:2528
+msgid "Bottom"
+msgstr "Final"
+
+#: admin/class-evergreen_content_poster-settings.php:2545
+msgid "Posting Order"
+msgstr "Orden de publicación"
+
+#: admin/class-evergreen_content_poster-settings.php:2550
+msgid "Random"
+msgstr "Aleatorio"
+
+#: admin/class-evergreen_content_poster-settings.php:2568
+msgid "Minimum number of days not to repeat the same post"
+msgstr "Número mínimo de días para no repetir la misma entrada"
+
+#: admin/class-evergreen_content_poster-settings.php:2569
+msgid ""
+"If zero, this won't be taken into account and a post can potentially be "
+"posted twice on the same day."
+msgstr ""
+"Si es cero, no se tendrá en cuenta y una entrada podría publicarse dos veces "
+"el mismo día."
+
+#: admin/class-evergreen_content_poster-settings.php:2579
+msgid "Enable Google Analytics Tracking"
+msgstr "Activar el seguimiento de Google Analytics"
+
+#: admin/class-evergreen_content_poster-settings.php:2580
+msgid ""
+"If checked, UTM query tags will be added to URL of shares so that you can "
+"better track traffic from Evergreen Content Poster."
+msgstr ""
+"Si se marca, las etiquetas de consulta UTM se añadirán a la URL de los "
+"recursos compartidos para que puedas hacer un mejor seguimiento del tráfico "
+"desde Evergreen Content Poster."
+
+#: admin/class-evergreen_content_poster-settings.php:2598
+msgid "Notification Settings"
+msgstr "Configuración de las notificaciones"
+
+#: admin/class-evergreen_content_poster-settings.php:2599
+msgid "How would you like to be notified?"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2603
+msgid "Email address"
+msgstr "Email"
+
+#: admin/class-evergreen_content_poster-settings.php:2604
+msgid "Which email address should be used for notifications?"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2608
+msgid "yourawesome@email.com"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2613
+msgid "Publish notifications"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2614
+msgid "If enabled, you will receive notifications when a post is published"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2631
+msgid "Send email on publish failure."
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2632
+msgid ""
+"If enabled, you will receive an email notification if a post fails to publish"
+msgstr ""
+
+#: admin/class-evergreen_content_poster-settings.php:2650
+msgid "Connected Accounts"
+msgstr "Cuentas conectadas"
+
+#: admin/class-evergreen_content_poster-settings.php:2679
+msgid "Connected social networks"
+msgstr "Redes sociales conectadas"
+
+#: admin/class-evergreen_content_poster-settings.php:3222
+msgid "[inactive]"
+msgstr "[inactivo]"
+
+#: admin/partials/evergreen_content_statistics.php:19
+msgid "Schedule statistics"
+msgstr "Estadísticas del calendario"
+
+#: admin/partials/evergreen_content_statistics.php:20
+msgid ""
+"To help you create a diverse mix of posts, see how many times each category "
+"is scheduled each day, and what percentage of times that is."
+msgstr ""
+"Para ayudarte a crear una mezcla variada de entradas, mira cuántas veces se "
+"programa cada categoría al día y cuál es su porcentaje."
+
+#: admin/partials/evergreen_content_statistics.php:28
+msgid "Category"
+msgstr "Categoría"
+
+#: admin/partials/evergreen_content_statistics.php:29
+msgid "Sunday"
+msgstr "Domingo"
+
+#: admin/partials/evergreen_content_statistics.php:30
+msgid "Monday"
+msgstr "Lunes"
+
+#: admin/partials/evergreen_content_statistics.php:31
+msgid "Tuesday"
+msgstr "Martes"
+
+#: admin/partials/evergreen_content_statistics.php:32
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: admin/partials/evergreen_content_statistics.php:33
+msgid "Thursday"
+msgstr "Jueves"
+
+#: admin/partials/evergreen_content_statistics.php:34
+msgid "Friday"
+msgstr "Viernes"
+
+#: admin/partials/evergreen_content_statistics.php:35
+msgid "Saturday"
+msgstr "Sábado"
+
+#: admin/partials/evergreen_content_statistics.php:36
+msgid "Total per week"
+msgstr "Total a la semana"
+
+#. translators: %1$s is a link start tag on this page, %2$s is the link closing tag
+#: evergreen_content_poster.php:205
+#, php-format
+msgid ""
+"It looks like you did not create any evergreen social post yet for this "
+"piece of content. If you want you can easily do this right now by clicking "
+"%1shere%2s."
+msgstr ""
+"Parece que aún no has creado ninguna entrada social «evergreen» para este "
+"contenido. Si quieres, puedes hacerlo fácilmente ahora mismo haciendo clic "
+"%1saquí%2s."
+
+#: evergreen_content_poster.php:478
+msgid "Evergreen Content Poster Deactivation"
+msgstr "Desactivación de Evergreen Content Poster"
+
+#: evergreen_content_poster.php:481
+msgid ""
+"If you have a moment, please let us know why you are deactivating the "
+"Evergreen Content Poster. All submissions are anonymous and we only use this "
+"feedback to improve this plugin."
+msgstr ""
+"Si tienes un minuto, por favor, indícanos por qué quieres desactivar "
+"Evergreen Content Poster. Todos los aportes son anónimos y solo utilizamos "
+"los comentarios para mejorar este plugin."
+
+#: evergreen_content_poster.php:486
+msgid "I'm only deactivating temporarily"
+msgstr "Solo lo voy a desactivar temporalmente"
+
+#: evergreen_content_poster.php:493
+msgid "I no longer need the plugin"
+msgstr "Ya no necesito este plugin"
+
+#: evergreen_content_poster.php:500
+msgid "I found a better plugin"
+msgstr "He encontrado un plugin mejor"
+
+#: evergreen_content_poster.php:504
+msgid "What is the name of the plugin?"
+msgstr "¿Cómo se llama ese plugin?"
+
+#: evergreen_content_poster.php:512
+msgid "I only needed the plugin for a short period"
+msgstr "Solo necesitaba el plugin durante un corto periodo de tiempo"
+
+#: evergreen_content_poster.php:519
+msgid "The plugin broke my site"
+msgstr "El plugin estropeo mi sitio"
+
+#. translators: %1s is a link start tag to the WordPress support forums, %2s is the link closing tag.
+#: evergreen_content_poster.php:526 evergreen_content_poster.php:545
+#, php-format
+msgid ""
+"We're sorry to hear that, check %1sEvergreen Content Poster Support%2s. Can "
+"you describe the issue?"
+msgstr ""
+"Sentimos lo ocurrido. consulta el %1ssoporte de Evergreen Content Poster%2s. "
+"¿Puedes describir la incidencia?"
+
+#: evergreen_content_poster.php:538
+msgid "The plugin suddenly stopped working"
+msgstr "El plugin dejó de funcionar repentinamente"
+
+#: evergreen_content_poster.php:560
+msgid "I don't have a Buffer account"
+msgstr "No tengo una cuenta de Buffer"
+
+#: evergreen_content_poster.php:564
+msgid ""
+"Please let us know which social network you would like us to integrate "
+"directly"
+msgstr ""
+"Por favor, indícanos qué red social te gustaría que integrásemos directamente"
+
+#: evergreen_content_poster.php:578
+msgid "Please describe why you're deactivating the Evergreen Content Poster"
+msgstr "Por favor, describe por qué vas a desactivar Evergreen Content Poster"
+
+#: evergreen_content_poster.php:587
+msgid "Would you like to delete all Evergreen Content Poster data?"
+msgstr "¿Te gustaría borrar todos los datos de Evergreen Content Poster?"
+
+#: evergreen_content_poster.php:590
+msgid ""
+"By default your social media posting schedule, Evergreen Content Poster "
+"options, and evergreen content (your social media posts) are not deleted "
+"when you deactivate the Evergreen Content Poster. If you are deleting the "
+"Evergreen Content Poster completely from your website and want those items "
+"removed as well check this option.<br /><strong>Note: This will permanently "
+"delete all Evergreen Content Poster data from your database.</strong>"
+msgstr ""
+"Por defecto, tu calendario de publicación en medios sociales, las opciones "
+"de Evergreen Content Poster y el contenido «evergreen» (tus entradas de "
+"medios sociales) no se borran cuando desactivas Evergreen Content Poster. Si "
+"vas a borrar Evergreen Content Poster de tu web completamente y quieres que "
+"esos elementos se eliminen también, haz clic en esta opción. <br /"
+"><strong>Nota: esto borrará permanentemente todos los datos de Evergreen "
+"Content Poster de tu base de datos.</strong>"
+
+#: evergreen_content_poster.php:605
+msgid "Skip and Deactivate"
+msgstr "Omitir y desactivar"
+
+#: evergreen_content_poster.php:612
+msgid "Submit and Deactivate"
+msgstr "Enviar y desactivar"
+
+#: evergreen_content_poster.php:782
+msgid "Content library"
+msgstr "Biblioteca de contenido"
+
+#: evergreen_content_poster.php:787
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:643
+#, php-format
+msgid ""
+"Network %s has been removed from Buffer, we also removed it from your "
+"schedule"
+msgstr ""
+"La red %s se ha eliminado de Buffer. También la hemos eliminado de tu "
+"calendario"
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:953
+msgid "No access token was specified"
+msgstr "No se ha especificado ningún token de acceso"
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1065
+#, php-format
+msgid ""
+"%s requires the PHP cURL extension to be installed and enabled by your web "
+"host."
+msgstr ""
+"%s requiere que la extensión PHP cURL esté instalada y activada por tu "
+"proveedor de alojamiento web."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1156
+#, php-format
+msgid ""
+"Buffer API Error: HTTP Code %s. Sorry, we don't have any more information "
+"about this error. Please try again."
+msgstr ""
+"Error de la API de Buffer: código HTTP %s. Lo sentimos, no tenemos más "
+"información acerca de este error. Por favor, inténtalo de nuevo."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1185
+msgid ""
+"Click the \"Disconnect from Buffer\" button, and then the \"Connect to "
+"Buffer\" button on the Plugin's Settings screen"
+msgstr ""
+"Haz clic en el botón «Desconectar de Buffer» y, después, en el botón "
+"«Conectar con Buffer» en la pantalla de ajustes del plugin"
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1192
+msgid ""
+"Run this Plugin on a publicly accessible domain that does not have password "
+"protection."
+msgstr ""
+"Ejecuta este plugin en un dominio de acceso público que no tenga protección "
+"por contraseña."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1205
+#: includes/class-evergreen_content_poster-buffer_connector.php:1244
+msgid ""
+"Buffer can't fetch the image because your site is running on a local host "
+"and not web accessible. Please run the Plugin on a publicly accessible "
+"domain."
+msgstr ""
+"Buffer no puede obtener la imagen porque tu sitio se ejecuta en un "
+"alojamiento local y no accesible desde la web. Por favor, ejecuta el plugin "
+"en un dominio de acceso público."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1209
+msgid ""
+"Specify a Featured Image, Additional Image or an image in the Post Content."
+msgstr ""
+"Especifica una imagen destacada, una imagen adicional o una imagen en el "
+"contenido de la entrada."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1220
+#, php-format
+msgid ""
+"Pinterest: Choose a Pinterest board in the status settings.  Otherwise, "
+"reconnect the %s Account %s in Buffer."
+msgstr ""
+"Pinterest: elige un tablero de Pinterest en los ajustes de estado.  Si no, "
+"vuelve a conectar la %scuenta%s en Buffer."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1228
+#, php-format
+msgid ""
+"Your Twitter queue is full at Buffer, try again later or upgrade to %1sa "
+"paid Buffer plan%2s."
+msgstr ""
+"La cola de tu Twitter esta llena en Buffer. Inténtalo de nuevo más tarde o "
+"actualiza a %1sun plan de pago de Buffer%2s."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1234
+msgid ""
+"Whoops, you try to send the same message multiple times to soon after each "
+"other. Try again later."
+msgstr ""
+"Ups, intentas enviar el mismo mensaje varias veces en poco tiempo. Inténtalo "
+"de nuevo más tarde."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1247
+msgid ""
+"Whoops, there seems to be an issue with your image. Can you upload a new one?"
+msgstr ""
+"Ups, parece que hay un problema con tu imagen. ¿Puedes subir una nueva?"
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1257
+#, php-format
+msgid ""
+"The Custom Time (based on Custom Field / Post Meta Value) field cannot be "
+"%s, which is a date in the past."
+msgstr ""
+"El campo Hora personalizada (basado en Campo personalizado / Metavalor de la "
+"entrada) no puede ser %s, ya que es una fecha del pasado."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1262
+#, php-format
+msgid "%1sWordPress%2s and %3s%4s%5s timezones must match."
+msgstr "%1sWordPress%2s y las zonas horarias %3s%4s%5s tienen que coincidir."
+
+#: includes/class-evergreen_content_poster-buffer_connector.php:1280
+msgid ""
+"Whoops, you tried to send the same message multiple times too soon after "
+"each other. Try again later."
+msgstr ""
+"Ups, has intentado enviar el mismo mensaje varias veces en poco tiempo. "
+"Inténtalo de nuevo más tarde."
+
+#: includes/class-evergreen_content_poster-cron_scheduler.php:53
+msgid "Only for profile"
+msgstr "Solo para el perfil"
+
+#: includes/class-evergreen_content_poster-notifier.php:30
+msgid "One of your updates has just been posted"
+msgstr ""
+
+#: includes/class-evergreen_content_poster-notifier.php:31
+#, php-format
+msgid ""
+" <div class=\"container\">\n"
+"                                <h1>&#127881; The Evergreen Content Poster "
+"just posted one of your updates.</h1>\n"
+"                                <p>Hey &#128075; there,</p>\n"
+"                                <p>Great news! The social media update for "
+"your %s(%s) account has successfully been shared at %s</p>\n"
+"                                <p>This was the update:</p>\n"
+"                                <p>%s</p>\n"
+"                                <p>Have a great day!</p>\n"
+"                                <p>Cheers,<br />Hans from the Evergreen "
+"Content Poster</p>\n"
+"                            </div>"
+msgstr ""
+
+#: includes/class-evergreen_content_poster-notifier.php:46
+msgid "A post failed to publish"
+msgstr ""
+
+#: includes/class-evergreen_content_poster-notifier.php:47
+#, php-format
+msgid ""
+"<div class=\"container\">\n"
+"                                <h1>&#128542; The Evergreen Content Poster "
+"failed while trying to publish a post.</h1>\n"
+"                                <p>Hey &#128075; there,</p>\n"
+"                                <p>Whoops! We're so sorry that we weren't "
+"able to post your social media update for your %s account (%s).\n"
+"                                </p>\n"
+"                                <p>We tried to publish your post:</p>\n"
+"                                <p>%s</p>\n"
+"                                <p>at %s, but something went wrong.</p>\n"
+"                                <p>Here's the error message:</p>\n"
+"                                <p><i>%s</i></p>\n"
+"                                <p>We're sorry that things didn't go as "
+"planned, but hope you still have a good day!</p>\n"
+"                                <p>Cheers,<br />Hans from the Evergreen "
+"Content Poster</p>\n"
+"                            </div>"
+msgstr ""
+
+#: includes/class-evergreen_content_poster-notifier.php:93
+msgid "Evergreen Content Poster Website"
+msgstr "Sitio web de Evergreen Content Poster"
+
+#: includes/class-evergreen_content_poster-notifier.php:94
+msgid "User Guides"
+msgstr ""
+
+#: includes/class-evergreen_content_poster-notifier.php:97
+#, php-format
+msgid "%s Evergreen Content Poster. All rights reserved."
+msgstr "%s Póster de contenido evergreen. Todos los derechos reservados."
+
+#: includes/class-evergreen_content_poster.php:179
+msgid "Press Ctrl+C to Copy this information."
+msgstr "Presiona Ctrl+C para copiar esta información."
+
+#: includes/class-evergreen_content_poster.php:219
+#: includes/class-evergreen_content_poster.php:226
+msgid "Enabled"
+msgstr "Activado"
+
+#: includes/class-evergreen_content_poster.php:221
+#: includes/class-evergreen_content_poster.php:228
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: includes/class-evergreen_content_poster.php:246
+msgid "Connected"
+msgstr "Conectado"
+
+#: includes/class-evergreen_content_poster.php:250
+msgid "No Buffer Connection"
+msgstr "Sin conexión con Buffer"
+
+#: includes/class-evergreen_content_poster.php:251
+msgid "No access token"
+msgstr "Sin token de acceso"
+
+#: includes/class-evergreen_content_poster.php:252
+msgid "No profiles connected"
+msgstr "Sin perfiles conectados"
+
+#: includes/class-evergreen_content_poster.php:259
+msgid "Environment Statuses"
+msgstr "Estados del entorno"
+
+#: includes/class-evergreen_content_poster.php:260
+msgid "Home URL"
+msgstr "URL de inicio"
+
+#: includes/class-evergreen_content_poster.php:261
+msgid "Site URL"
+msgstr "URL del sitio"
+
+#: includes/class-evergreen_content_poster.php:262
+msgid "WordPress Version"
+msgstr "Versión de WordPress"
+
+#: includes/class-evergreen_content_poster.php:263
+msgid "PHP Version"
+msgstr "Versión de PHP"
+
+#: includes/class-evergreen_content_poster.php:264
+msgid "WP Memory Limit"
+msgstr "Límite de memoria de WP"
+
+#: includes/class-evergreen_content_poster.php:265
+msgid "Evergreen Content Poster Version"
+msgstr "Versión de Evergreen Content Poster"
+
+#: includes/class-evergreen_content_poster.php:266
+msgid "Database structure"
+msgstr "Estructura de la base de datos"
+
+#: includes/class-evergreen_content_poster.php:266
+msgid "okay/not okay - fix structure"
+msgstr "vale/no vale - corregir estructura"
+
+#: includes/class-evergreen_content_poster.php:267
+msgid "Connection Statuses"
+msgstr "Estados de conexión"
+
+#: includes/class-evergreen_content_poster.php:271
+msgid "Buffer token available"
+msgstr "Token de Buffer disponible"
+
+#: includes/class-evergreen_content_poster.php:272
+msgid "Buffer profiles"
+msgstr "Perfiles de Buffer"
+
+#: includes/class-evergreen_content_poster.php:273
+msgid "Theme information"
+msgstr "Información del tema"
+
+#: includes/class-evergreen_content_poster.php:274
+msgid "Theme Name"
+msgstr "Nombre del tema"
+
+#: includes/class-evergreen_content_poster.php:275
+msgid "Theme Version"
+msgstr "Versión del tema"
+
+#: includes/class-evergreen_content_poster.php:276
+msgid "Active Plugins"
+msgstr "Plugins activos"
+
+#: includes/class-evergreen_content_poster.php:277
+msgid "Number of Active Plugins"
+msgstr "Número de plugins activos"
+
+#: includes/class-evergreen_content_poster.php:278
+msgid "Active plugin names and version number"
+msgstr "Nombre y versión de plugins activos"
+
+#: includes/class-evergreen_content_poster.php:304
+msgid "Sharing logs"
+msgstr "Registros compartidos"
+
+#: includes/class-evergreen_content_poster.php:305
+msgid "Profile"
+msgstr "Perfil"
+
+#: includes/class-evergreen_content_poster.php:305
+msgid "Result"
+msgstr "Resultado"
+
+#: includes/class-evergreen_content_poster.php:305
+msgid "Result Message"
+msgstr "Mensaje de resultado"
+
+#: includes/class-evergreen_content_poster.php:306
+msgid "Social Status Text"
+msgstr "Texto de estado social"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Evergreen Content Poster"
+msgstr "Evergreen Content Poster"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.evergreencontentposter.com/?"
+"utm_source=plugin%20description&utm_medium=software&utm_campaign=evergreen%20content%20poster"
+msgstr ""
+"https://www.evergreencontentposter.com/?"
+"utm_source=plugin%20description&utm_medium=software&utm_campaign=evergreen%20content%20poster"
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically share your WordPress evergreen content on Twitter, Facebook, "
+"Instagram, LinkedIn or Pinterest. Get more visitors to your website and keep "
+"your content alive. For questions, comments, or feature requests, <a "
+"href=\"https://www.evergreencontentposter.com/contact-us/?"
+"utm_source=plugin%20description&utm_medium=software&utm_campaign=Evergreen%20Content%20Poster\">contact</"
+"a> us!"
+msgstr ""
+"Comparte automáticamente tu contenido «evergreen» de WordPress en Twitter, "
+"Facebook, Instagram, LinkedIn o Pinterest. Consigue más visitas en tu web y "
+"mantén vivo tu contenido. Si tienes preguntas, comentarios o peticiones de "
+"características, <a href=\"https://www.evergreencontentposter.com/contact-"
+"us/?"
+"utm_source=plugin%20description&utm_medium=software&utm_campaign=Evergreen%20Content%20Poster\">¡contacta</"
+"a> con nosotros!"
+
+#, fuzzy
+#~| msgid "Connect to Buffer"
+#~ msgid "Connect to Twitter"
+#~ msgstr "Conectar a Buffer"
+
+#, php-format
+#~ msgid ""
+#~ "Or if you don't have a Twitter account yet, you can create a %1sfree "
+#~ "Twitter account here%2s."
+#~ msgstr ""
+#~ "Si todavía no tienes una cuenta de Twitter, puedes crear una %1scuenta "
+#~ "gratuita aquí%2s."
+
+#~ msgid "User Growth"
+#~ msgstr "Crecimiento del usuario"
+
+#~ msgid "Connect to Buffer to start using Evergreen Content Poster."
+#~ msgstr "Conéctate a Buffer para empezar a usar Evergreen Content Poster."
+
+#~ msgid "Account Settings"
+#~ msgstr "Ajuste de la cuenta"
+
+#~ msgid ""
+#~ "https://usergrowth.io/resources/tools/evergreen-content-poster/?"
+#~ "utm_source=plugin%20description&utm_medium=software&utm_campaign=Evergreen%20Content%20Poster"
+#~ msgstr ""
+#~ "https://usergrowth.io/resources/tools/evergreen-content-poster/?"
+#~ "utm_source=plugin%20description&utm_medium=software&utm_campaign=Evergreen%20Content%20Poster"
